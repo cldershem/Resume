@@ -1,0 +1,140 @@
+% CameronResumeTex.tex
+\documentclass[10pt,letterpaper]{article}			%document class
+\usepackage[letterpaper,margin=0.75in]{geometry}	%margins
+\usepackage[utf8]{inputenc}							%encoding
+\usepackage{mdwlist}								%include list package
+\usepackage[scaled]{helvet}							%sets font
+\renewcommand*\familydefault{\sfdefault} 			%sets sans serif
+\usepackage{fancyhdr}
+\pagestyle{fancy}									%header/pagenumber {empty} removes
+\usepackage{lastpage}								%page of page
+\usepackage{verbatim}								%allows comments
+\usepackage{multicol}								%columns
+\author{Cameron Dershem}							%topmatter
+\title{Cameron Dershem Resume}						%topmatter
+\newcommand{\JobHeader}[4]{							%function for headers
+			\vspace{-.4em}
+			\textbf{#1}
+			\hfill
+			\textbf{#2}
+			\\
+			\emph{#3}
+			\hfill
+			\emph{#4}\par
+			\vspace{-1em}
+			}
+
+\fancyhead[L,E]{\Huge Cameron Dershem \normalsize \hfill 312.361.0322 \hfill cldershem@gmail.com \hfill Indianapolis, IN }
+%\fancyfoot[R]{Dershem \thepage\ / \pageref{LastPage} }
+\fancyfoot[C]{}
+\setlength{\headsep}{1.1em} 
+
+
+\setlength{\parindent}{0pt}							%removes indents
+%\renewcommand{\labelitemi}{$\--$}					%changes bullets to dashes
+%\usepackage{draftwatermark}						%adds draft watermark
+
+
+\begin{document}									% and the actual content starts here
+
+\subsection*{Experience}
+\vspace{-.68em}
+\hrule
+\vspace{0.8em}
+
+	\JobHeader{MarketStar}{Indianapolis, IN}{Google Specialist}{November 2012 -- December 2012}
+		\begin{itemize*}
+		\item Educated and demonstrated Google's ecosystem and products focusing on the Google Chromebook
+		\item Answered any questions involving Google and how it could better the guests current needs
+		\item Initialized training, development, and continued education of colleagues
+		\item Assisted guests in finding the answer to their issues -- even if the answer was not a Google product
+		\item Used, tested, troubleshot products, and reported bugs to their proper teams
+		\end{itemize*}
+
+	\JobHeader{Orange 20 Bikes}{Los Angeles, CA}{IT Management \& Inventory Control}{October 2011 -- June 2012}
+		\begin{itemize*}	
+		\item Designed and implemented improvements to POS and inventory control systems
+		\item Improved employee communications and morale -- greatly increasing efficiency
+		\item Consulted with and trained management and employees on new processes and best practices
+		\item Outlined and deployed new knowledge classes for employees 
+		\item Undertook numerous special projects to reduce loss, save time, and save money
+		\item Advised and administered needed hardware and software improvements
+		\end{itemize*}
+
+	\JobHeader{Camadeus Film Technologies, Inc}{Los Angeles, CA}{Rental Agent}{June 2010 -- September 2011}
+		\begin{itemize*}
+		\item Coordinated rentals from initial contact to delivery and return including invoicing, subrentals, and follow ups
+		\item Maintained and serviced equipment
+		\item Supported customers both by phone and on location
+		\item Handled equipment sales under \$35,000
+		\item Implemented and maintained inventory control -- improving office and warehouse efficiency
+		\item Trained clients and employees through demonstrations and workshops
+		\end{itemize*}
+
+	\JobHeader{Various Productions}{Chicago, IL \& Los Angeles, CA}{Freelance Gaffer \& Best Boy Electric}{June 2002 -- June 2010}
+		\begin{itemize*}
+		\item Controlled the look of a film through lighting techniques 
+		\item Managed crew ranging from 2 to 20, including all personnel decisions
+		\item Analyzed electrical needs and distributed power appropriately -- always keeping a safe and efficient set
+		\item Serviced, repaired, and maintained equipment inventory
+		\item Acted as liaison between the Lighting Department, Production, and all other departments
+		\item Maintained accurate and up to date personnel files, time cards, and budget for the department
+		\end{itemize*}
+
+	\JobHeader{Columbia College Chicago}{Chicago, IL}{Teacher's Assistant \& Projectionist}{August 2003 -- June 2006}
+		\begin{itemize*}
+		\item Projected film in 35mm, 16mm, DVD, VHS, Beta, and MiniDV formats 
+		\item Maintained equipment and including troubleshooting issues, managing rentals, and contorling inventory
+		\item Assisted students and teachers with questions along with better conveying the material
+		\item Taught classes occasionally in teacher's absence
+		\end{itemize*}
+		
+%\pagebreak[4]
+\hrule
+\vspace{-1.4em}
+\subsection*{Education}
+\vspace{-.6em}
+\hrule
+\vspace{.8em}
+
+	\JobHeader{Columbia College Chicago}{Chicago, IL}{B.A. Film/Video -- Cinematography Concentration}{2003 -- 2008}
+
+%\pagebreak[4]
+\vspace{1em}
+\hrule
+\vspace{-1.4em}
+\subsection*{Skills \& Interests}
+\vspace{-0.6em}
+\hrule
+\vspace{.4em}
+
+%\begin{comment}
+\begin{minipage}[t]{0.5\textwidth}	
+	\begin{itemize*}
+	\item Adept in Windows, OSX, Linux, most office suites, \mbox{Final} Cut, Avid, QuickBooks, OpenERP, HTML, CSS, PHP, MySQL, \LaTeX, and various CMS's 
+	\item Willingness and ability to learn new things and skills efficiently along with the patience to teach others
+	\item Strong troubleshooting skills -- Always focused on efficiency and finding solutions
+	\item Excellent communication skills -- able to take direction as well as lead a team
+	\item Very capable of competently multitasking and able to keep up morale while doing just about anything
+	\end{itemize*}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+	\begin{itemize*}
+	\item Exceptional customer service -- capable of creating and maintaining long-term relationships
+	\item Always reading about technologies, tinkering with gadgets, and an all around computer geek
+	\item Complete food, cooking, and cast iron nerd
+	\item Passionate about cinema, cinematography, still photography -- specifically lighting
+	\item Avid cyclist, wishful randonneur, and dedicated velodrome attendee
+	\item Currently learning Python, JavaScript, and Spanish
+		% --
+		%\vspace{-1em}
+		%\begin{verbatim}
+		%def learnSpanish():
+		%    print ”muy lentamente”
+		%    exit(0)
+		%\end{verbatim}
+	\end{itemize*}
+\end{minipage}
+%\end{comment}
+
+\end{document}

@@ -1,0 +1,109 @@
+% ElsyResumeTex.tex
+\documentclass[10pt,letterpaper]{article}			%document class
+\usepackage[letterpaper,margin=0.75in]{geometry}	%margins
+\usepackage[utf8]{inputenc}							%fonts?
+\usepackage{mdwlist}								%include list package
+\usepackage[scaled]{helvet}							%sets font
+\renewcommand*\familydefault{\sfdefault} 			%sets sans serif
+\pagestyle{empty}									%removes pagenumber
+\usepackage{verbatim}
+\author{Elsy Benitez}							%topmatter
+\title{Elsy Benitez Resume}						%topmatter
+\newcommand{\JobHeader}[4]{							%function for headers
+%			\vspace{-.4em}
+			\textbf{#1}
+			\hfill
+			\textbf{#2}
+			\\
+			\emph{#3}
+			\hfill
+			\emph{#4}\par}
+%			\vspace{-.6em}}							%screws up hfill
+%			}
+
+%\setlength{\parskip}{5mm plus10mm minus10mm}
+
+\setlength{\parindent}{0pt}							%removes indents
+%\renewcommand{\labelitemi}{$\--$}					%changes bullets to dashes
+\usepackage{draftwatermark}							%adds draft watermark
+
+\begin{document}
+
+{\Huge Elsy Benitez}
+\hfill 323.529.3579
+\hfill elsymay@gmail.com
+\hfill La Puente, CA
+\vspace{.2em}
+\hrule
+
+\begin{comment}
+\vspace{-.8em}
+\subsection*{Introduction}
+\vspace{-.6em}
+\hrule
+\vspace{0.8em}
+\end{comment}
+
+\subsection*{Introduction}
+
+As a highly-motivated and detailed oriented employee I have thrived in both museum and gallery settings. My experience ranges from visitor service to administrative tasks. I am currently pursing my Master's in Cultural Studies with research in art practice and theory. Coming from a strong background in art both in research and personal artistic projects I am seeking a position that will allow me to utilize my confidence, management skills, and self-direction in a museum setting. 
+
+\subsection*{Career History}
+	\JobHeader{Documenta 13 -- Paul Ryan's Threeing}{Kessel, Germany}{Student Artist Assistant}{June 2012 -- September 2012}
+		Working with artist on activated project as well as organizing and leading workshops. 
+			\begin{itemize*}
+			\item Sharing and educating visitors about Paul Ryan's Threeing theory
+			\item Organized and lead workshops as part of the activated project
+			\item Designed and lead a photography based workshop relating to the Threeing project
+			\end{itemize*}
+	\JobHeader{J. Paul Getty Museum}{Los Angeles, CA}{Visitor Services Associate}{December 2010 -- September 2011}
+		Comprehensive knowledge of visitor services, cash handling, and phone operations.
+			\begin{itemize*}
+			\item Working with and advising customers on exhibitions and resources available at the museum
+			\item Taking payment by cash and card both in person and via phone operations
+			\item Events ushering and crowd control
+			\end{itemize*}
+	
+	\JobHeader{Her is Elsewhere Gallery}{Los Angeles, CA}{Gallery Assistant}{September 2010 -- December 2010}
+		Involved in the day to day operations including curation, advertisements, organization, collections management,
+			\begin{itemize*}	
+			\item Assisted with the display of exhibitions and special events
+			\item Offered information to visitors about exhibitions, art, and the artists
+			\item Organized gallery budget and purchased materials for event display and exhibitions
+			\item Writing and editing press releases and gallery information packets
+			\item Contributed in studio visits with potential artists and research of their practice
+			\end{itemize*}
+	
+	\JobHeader{Pacific Design Center}{Los Angeles, CA}{Design Love Art Liason}{September 2010 -- December 2010}
+		I was the main form of communication between the curator of the program and the administrative wing of the Pacific Design Center as well as the various galleries and owners. 
+			\begin{itemize*}			
+			\item Designed and gathered information for email blast flyers.
+			\item General database and events information organization
+			\item Photographed various events, openings, and gallery spaces
+			\item Communication between Art Loves Design curator (based in New York) and the Pacific Design Center Team in Los Angeles
+			\end{itemize*}
+	
+	\JobHeader{Hammer Museum}{Los Angeles, CA}{Development Department Assistant}{July 2008 -- September 2010}
+		In charge of various administrative tasks within the development department as well as providing a face for the museum at various events. 
+			\begin{itemize*}	
+			\item Event database management
+			\item Membership processing, fulfillment, and development
+			\item Record keeping on Razor's Edge and general data entry
+			\item In charge of membership table at museum events in which I provided information on membership as well as general museum information
+			\end{itemize*}
+	
+\subsection*{Education}
+	\JobHeader{University of Leeds}{Leeds, UK}{ABD M.A. -- Cultural Studies}{October 2008 -- Present}
+	\JobHeader{University of Californa}{Los Angeles, CA}{B.A. -- Women's Studies \& Art History Minor}{2008 -- 2010}
+	\JobHeader{Mt. San Antonio College}{Los Angeles, CA}{A.S. -- Photography \& A.A. -- Liberal Arts \& Humanities}{July 2008 -- September 2010}
+
+\subsection*{Volunteer Work \& Internships}
+	\JobHeader{Leeds Film Festival}{Leeds, UK}{Photography}{2011 -- 2011}
+	\JobHeader{C. Ian White \& The CEJJES Institute}{Altadena, CA}{Intern}{2009 -- 2009}
+	\JobHeader{Daily Bruin}{Los Angeles, CA}{Photographer}{2008 -- 2008}
+	\JobHeader{Campus Circle Newspaper}{Somewhere, USA}{Photographer}{2008 -- 2010}
+
+\subsection*{Interests}
+Interests in photography, both practical and academic. Much of my research to date has been on history of photography as well as contemporary exhibitions. I also  have an interest in screen printing, curation, and event planning. I am curious in the way various spaces and institutions utilize these tools to maximize exposure. 
+
+\end{document}
