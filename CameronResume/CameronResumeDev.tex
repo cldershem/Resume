@@ -1,0 +1,138 @@
+% CameronResumeTex.tex
+\documentclass[10pt,letterpaper]{article}			%document class
+\usepackage[letterpaper,margin=0.75in]{geometry}	%margins
+\usepackage[utf8]{inputenc}							%encoding
+%\usepackage{mdwlist}								%include list package
+\usepackage{enumitem}
+\usepackage[scaled]{helvet}							%sets font
+\renewcommand*\familydefault{\sfdefault} 			%sets sans serif
+\usepackage{fancyhdr}
+\pagestyle{fancy}									%header
+\pagenumbering{gobble}                              %removes page numbers
+\setlength{\parindent}{0pt}							%removes indents
+%\usepackage{lastpage}								%page of page
+\usepackage{verbatim}								%allows comments
+%\usepackage{multicol}								%columns
+%\usepackage{rotating}
+\author{Cameron Dershem}							%topmatter
+\title{Cameron Dershem Resume}						%topmatter
+\newcommand{
+    \JobHeader}[4]{
+    %function for headers
+	\textbf{#1}
+	\hfill
+	\textbf{#2}
+	\\
+	\emph{#3}
+	\hfill
+	\emph{#4}
+	}
+
+\newcommand{
+    \sectionHeader}[1]{
+    \hrule
+    %\noindent\rule{\textwidth}{1.5pt}
+    \vspace{0.2em}
+    {\large \textbf {#1}}
+    \vspace{0.2em}
+    \hrule
+    \vspace{0.2em}
+    }
+
+\fancyhead[L]{\Huge Cameron Dershem}
+\fancyhead[R]{  %\\ adds line break
+                cldershem@gmail.com\textbar
+                312.361.0322\textbar
+                Indianapolis, IN\\ % \textbar
+                homelessgaffer.com\textbar
+                github.com/cldershem}
+
+%\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{30.0pt}
+\setlength{\headsep}{-0.0em}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\begin{document}							% actual content starts here
+
+%{\large \textbf{Objective:}} 
+%{\sectionHeader{Objective:}To successfully change careers into development by obtaining an entry level position.
+
+\sectionHeader{Experience}
+
+	\JobHeader{MarketStar}{Indianapolis, IN}{Google Specialist}{November 2012 -- December 2012}
+		\begin{itemize}
+		    \item Educated and demonstrated Google's ecosystem and products focusing on the Google Chromebook
+		    \item Answered any questions involving Google and how it could better the guests current needs
+		    \item Initialized training, development, and continued education of colleagues
+		    \item Assisted guests in finding the answer to their issues -- even if the answer was not a Google product
+		    \item Used, tested, troubleshot products, and reported bugs to their proper teams
+		\end{itemize}
+
+	\JobHeader{Orange 20 Bikes}{Los Angeles, CA}{IT Management \& Inventory Control}{October 2011 -- June 2012}
+		\begin{itemize}	
+		    \item Designed and implemented improvements to POS and inventory control systems
+		    \item Improved employee communications and morale -- greatly increasing efficiency
+		    \item Consulted with and trained management and employees on new processes and best practices
+		    \item Outlined and deployed new knowledge classes for employees 
+		    \item Undertook numerous special projects to reduce loss, save time, and save money
+		    \item Advised and administered needed hardware and software improvements
+		\end{itemize}
+
+	\JobHeader{Camadeus Film Technologies, Inc}{Los Angeles, CA}{Rental Agent}{June 2010 -- September 2011}
+		\begin{itemize}
+		    \item Coordinated rentals from initial contact to delivery and return including invoicing, subrentals, and follow ups
+		    \item Maintained and serviced equipment
+		    \item Supported customers both by phone and on location
+		    \item Handled equipment sales under \$35,000
+		    \item Implemented and maintained inventory control -- improving office and warehouse efficiency
+		    \item Trained clients and employees through demonstrations and workshops
+		\end{itemize}
+
+	\JobHeader{Various Productions}{Chicago, IL \& Los Angeles, CA}{Freelance Gaffer \& Best Boy Electric}{June 2002 -- June 2010}
+		\begin{itemize}
+		    \item Controlled the look of a film through lighting techniques 
+		    \item Managed crew ranging from 2 to 20, including all personnel decisions
+		    \item Analyzed electrical needs and distributed power appropriately -- always keeping a safe and efficient set
+		    \item Serviced, repaired, and maintained equipment inventory
+		    \item Acted as liaison between the Lighting Department, Production, and all other departments
+		    \item Maintained accurate and up to date personnel files, time cards, and budget for the department
+		\end{itemize}
+
+	\JobHeader{Columbia College Chicago}{Chicago, IL}{Teacher's Assistant \& Projectionist}{August 2003 -- June 2006}
+		\begin{itemize}
+		    \item Projected film in 35mm, 16mm, DVD, VHS, Beta, and MiniDV formats 
+		    \item Maintained equipment and including troubleshooting issues, managing rentals, and contorling inventory
+		    \item Assisted students and teachers with questions along with better conveying the material
+		    \item Taught classes occasionally in teacher's absence
+		\end{itemize}
+		
+\sectionHeader{Education}
+
+	\JobHeader{Columbia College Chicago}{Chicago, IL}{B.A. Film/Video -- Cinematography Concentration}{2003 -- 2008}
+
+\sectionHeader{Skills \& Interests}
+
+\begin{minipage}[t]{0.49\textwidth}	
+	\begin{itemize}
+	    \item Adept in Windows, OSX, Linux, ChromeOS, Android, most office suites, \mbox{Final} Cut, Avid, QuickBooks, OpenERP, and various CMS's 
+	    \item Willingness and ability to learn new things and skills efficiently along with the patience to teach others
+	    \item Strong troubleshooting skills -- Always focused on efficiency and finding solutions
+	    \item Excellent communication skills -- able to take direction as well as lead a team
+	    \item Very capable of competently multitasking and able to keep up morale while doing just about anything
+	    \item Exceptional customer service -- capable of creating and maintaining long-term relationships
+	    \item Complete food, cooking, and cast iron nerd
+	\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+	\begin{itemize}
+	    \item Confident and comfortable with Python, Flask, HTML, CSS, JavaScript, \LaTeX
+	    \item Good understanding and capable of working with MySQL, MongoDB, PHP
+	    \item Prefers Vim for editing and Git for versioning
+	    \item Always reading about technologies, tinkering with gadgets, and an all around computer geek
+	    \item Passionate about cinema, cinematography, still photography -- specifically lighting
+	    \item Avid cyclist, wishful randonneur, and dedicated velodrome attendee
+	    \item Currently learning Java and attempting to learn Spanish -- muy lentamente
+	\end{itemize}
+\end{minipage}
+
+\end{document}
