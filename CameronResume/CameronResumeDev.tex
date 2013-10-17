@@ -1,6 +1,10 @@
 % CameronResumeTex.tex
 \documentclass[10pt,letterpaper]{article}			%document class
-\usepackage[letterpaper,margin=0.75in]{geometry}	%margins
+\usepackage[letterpaper,
+            top=1in,
+            bottom=0.5in,
+            right=0.5in,
+            left=0.5in]{geometry}	%margins
 \usepackage[utf8]{inputenc}							%encoding
 \usepackage{enumitem}
 \usepackage[scaled]{helvet}							%sets font
@@ -41,9 +45,11 @@
 \fancyhead[R]{  %\\ adds line break
     cldershem@gmail.com \textbar{}
     312.361.0322 \textbar{}
-    Indianapolis, IN\\ % \textbar
+    Indianapolis, IN
+    \\ % \textbar
     homelessgaffer.com \textbar{}
-    github.com/cldershem}
+    github.com/cldershem%
+    }
 
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{30.0pt}
