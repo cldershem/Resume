@@ -2,7 +2,6 @@
 \documentclass[10pt,letterpaper]{article}			%document class
 \usepackage[letterpaper,margin=0.75in]{geometry}	%margins
 \usepackage[utf8]{inputenc}							%encoding
-%\usepackage{mdwlist}								%include list package
 \usepackage{enumitem}
 \usepackage[scaled]{helvet}							%sets font
 \renewcommand*\familydefault{\sfdefault} 			%sets sans serif
@@ -10,7 +9,6 @@
 \pagestyle{fancy}									%header
 \pagenumbering{gobble}                              %removes page numbers
 \setlength{\parindent}{0pt}							%removes indents
-%\usepackage{lastpage}								%page of page
 \usepackage{verbatim}								%allows comments
 %\usepackage{multicol}								%columns
 %\usepackage{rotating}
@@ -18,7 +16,7 @@
 \title{Cameron Dershem Resume}						%topmatter
 \newcommand{
     \JobHeader}[4]{
-    %function for headers
+    %function for job/school headers
 	\textbf{#1}
 	\hfill
 	\textbf{#2}
@@ -39,17 +37,17 @@
     \vspace{0.2em}
     }
 
-\fancyhead[L]{\Huge Cameron Dershem}
+\fancyhead[L]{\fontsize{24.88}{10pt}\selectfont Cameron Dershem}
 \fancyhead[R]{  %\\ adds line break
-                cldershem@gmail.com\textbar
-                312.361.0322\textbar
-                Indianapolis, IN\\ % \textbar
-                homelessgaffer.com\textbar
-                github.com/cldershem}
+    cldershem@gmail.com \textbar{}
+    312.361.0322 \textbar{}
+    Indianapolis, IN\\ % \textbar
+    homelessgaffer.com \textbar{}
+    github.com/cldershem}
 
-%\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0pt}
 \setlength{\headheight}{30.0pt}
-\setlength{\headsep}{-0.0em}
+\setlength{\headsep}{-1.0em}
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 
 \begin{document}							% actual content starts here
