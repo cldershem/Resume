@@ -5,8 +5,8 @@
 \usepackage[letterpaper,
             top=1in,
             bottom=0.5in,
-            %right=0.85in,
-            %left=0.85in,
+            %right=1in,
+            %left=1in,
             ]{geometry}	                    %margins
 \usepackage{enumitem}
 %\usepackage[utf8]{inputenc}					%encoding
@@ -40,6 +40,9 @@
 \renewcommand{\descriptionlabel}[1]{\textbf{\textsc{{#1} --}}}
 \usepackage{array}                          %allows bold in tabular
 \usepackage{microtype}
+\usepackage{multicol}
+\setlength\multicolsep{0pt}
+\setlength{\columnseprule}{1pt}
 
 \newcommand{%
     \JobHeader}[4]{%                         %job/school header
@@ -146,20 +149,16 @@
 
 \sectionHeader{SKILLS \& INTERESTS}
 
-    \begin{minipage}[t]{0.5\textwidth}
+    \begin{multicols}{2}
     	\begin{itemize}
     	    \item Adept in Linux, Windows, OS X, Chrome OS, Android
-    	    \item Confident and comfortable with Python, Flask, HTML, CSS, JavaScript, \LaTeX
+    	    \item Confident and comfortable with Python, Flask, HTML, CSS, LESS, JavaScript, \LaTeX
     	    \item Good understanding and capable of working with MySQL, MongoDB, PHP
     	    \item Willingness and ability to learn new things and skills efficiently along with the patience to teach others
     	    \item Strong troubleshooting skills -- Always focused on efficiency and finding solutions
-    	    \item Excellent communication skills -- able to take direction as well as lead a team
-    	\end{itemize}
-    \end{minipage}
-    \vrule
-    \begin{minipage}[t]{0.5\textwidth}
-        \begin{itemize}
     	    \item Very capable of competently multitasking and able to keep up morale while doing just about anything
+        \columnbreak
+    	    \item Excellent communication skills -- able to take direction as well as lead a team
     	    \item Prefers Vim for editing, Git for versioning, and used Ubuntu since Hardy
     	    \item Always reading about technologies, tinkering with gadgets, and an all around computer geek
     	    \item Enjoys cooking and complete cast iron nerd
@@ -167,6 +166,6 @@
     	    \item Avid cyclist, wishful randonneur, and dedicated velodrome attendee
             \item Currently learning Java and attempting to learn Spanish (albeit, muy lentamente)
     	\end{itemize}
-    \end{minipage}
+    \end{multicols}
 
 \end{document}
