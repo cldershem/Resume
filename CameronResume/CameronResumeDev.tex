@@ -1,57 +1,74 @@
-%CameronResumeTex.tex
-\documentclass[10pt,letterpaper]{article}			%document class
+%CameronResumeDev.tex
+\author{Cameron Dershem}					%top matter
+\title{Cameron Dershem Resume}				%top matter
+\documentclass[letterpaper]{article}	    %document class
 \usepackage[letterpaper,
             top=1in,
             bottom=0.5in,
-            right=0.75in,
-            left=0.75in
-            ]{geometry}	%margins
-\usepackage[utf8]{inputenc}							%encoding
+            %right=0.85in,
+            %left=0.85in,
+            ]{geometry}	                    %margins
 \usepackage{enumitem}
-\usepackage[scaled]{helvet}							%sets font
-\renewcommand*\familydefault{\sfdefault} 			%sets sans serif
+%\usepackage[utf8]{inputenc}					%encoding
+%\usepackage[scaled]{helvet}					%sets font
+%\usepackage{tgpagella}
+\usepackage{libertine}
+\usepackage[T1]{fontenc}
+\renewcommand*\familydefault{\sfdefault} 	%sets sans serif
 \usepackage{fancyhdr}
-\pagestyle{fancy}									%header
-\pagenumbering{gobble}                              %removes page numbers
-\setlength{\parindent}{0pt}							%removes indents
-\usepackage{verbatim}								%allows comments
+\pagestyle{fancy}							%header
+\pagenumbering{gobble}                      %removes page numbers
+\setlength{\parindent}{0pt}					%removes indents
+\usepackage{verbatim}						%allows comments
+\renewcommand{\headrulewidth}{0pt}          %removes header rule
+\setlength{\headheight}{30.0pt}             %gives header room
+\setlength{\headsep}{-1.0em}                %removes space below header
+\setitemize{%                                %condenses itemized lists
+    noitemsep,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt,
+    leftmargin=1em,
+    label=-}
+\setdescription{%                                %condenses description lists
+    noitemsep,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt}
+\usepackage{array}                          %allows bold in tabular
+\usepackage{microtype}
 
-%\usepackage{wrapfig}
-\usepackage{array}
-\usepackage{caption}
-\captionsetup{
-    justification=raggedleft,
-    singlelinecheck=false,
-    skip=.2em,
-    labelformat=empty,
-font=bf}
-
-\author{Cameron Dershem}							%top matter
-\title{Cameron Dershem Resume}						%top matter
-\newcommand{
-    \JobHeader}[4]{
-    %function for job/school headers
-	\textbf{#1}
+\newcommand{%
+    \JobHeader}[4]{%                         %job/school header
+    \textls{\textsc{{#1}%
 	\hfill
-	\textbf{#2}
+	{#2}}}
 	\\
-	\emph{#3}
+    \textsc{#3}
 	\hfill
-	\emph{#4}
+    \textsc{#4}
 	}
 
-\newcommand{
-    \sectionHeader}[1]{
-    \hrule
-    \vspace{0.2em}
-    {\large \textbf {#1}}
+\newcommand{%
+    \sectionHeader}[1]{%                     %header for sections
     \vspace{0.2em}
     \hrule
     \vspace{0.2em}
+    \textls{{\textbf{#1}\dotfill}}%
+    %\vspace{0.2em}
+    \\
     }
 
-\fancyhead[L]{\fontsize{24.88}{10pt}\selectfont Cameron Dershem}
-\fancyhead[R]{%\\ adds line break
+\newcommand{%
+    \objective}[1]{%
+    \hrule
+    \vspace{0.2em}
+    \textls{{\textbf{OBJECTIVE: }}}{#1}}
+
+\fancyhead[L]{%
+    \fontsize{24.88}{10pt}
+    \selectfont Cameron Dershem}
+\fancyhead[R]{%
     cldershem@gmail.com \textbar{}
     312.361.0322 \textbar{}
     Indianapolis, IN
@@ -60,17 +77,12 @@ font=bf}
     github.com/cldershem%
     }
 
-\renewcommand{\headrulewidth}{0pt}
-\setlength{\headheight}{30.0pt}
-\setlength{\headsep}{-1.0em}
-\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
-
 \begin{document}							% actual content starts here
 
-\sectionHeader{Experience}
-
+\objective{To successfully transition careers into development; seeking new challenges and stability.}
+\sectionHeader{EXPERIENCE}
 	\JobHeader{MarketStar}{Indianapolis, IN}{Google Specialist}{November 2012 -- December 2012}
-		\begin{itemize}
+    \begin{itemize}
             \item Educated guests on Google's ecosystem and products, focusing on the Google Chromebook
 		    \item Answered questions involving Google and how it could better the guests' current needs
             \item Developed training methods for the continued education of colleagues
@@ -92,20 +104,20 @@ font=bf}
             \item Organized and lead workshops and demonstrations to educate and train clients as well as employees
 		    \item Maintained equipment regularly -- troubleshooting, servicing, and reporting bugs as needed
 		    \item Provided on call support by phone and on location -- making sure the client could make their day 
-		    \item Coordinated rentals from initial contact to delivery and return including invoicing, subrentals, and follow ups
+		    \item Coordinated rentals from initial contact to delivery, invoicing, subrentals, returns, and follow ups
 		    \item Handled equipment sales under \$35,000
 		\end{itemize}
 
 	\JobHeader{Various Productions}{Chicago, IL \& Los Angeles, CA}{Freelance Gaffer \& Best Boy Electric}{June 2002 -- June 2010}
 		\begin{itemize}
-		    \item Controlled the look of a film through lighting techniques with direction from the Directory of Photography
+		    \item Controlled the look of a film through lighting techniques with direction from the Director of Photography
 		    \item Managed a department and crew ranging from 2 to 20, including personnel decisions, records and budget
 		    \item Analyzed electrical needs and distributed power appropriately -- always keeping a safe and efficient set
 		    \item Appropriated, inventoried, serviced, and maintained equipment for the duration of the job
 		    \item Acted as liaison between the Lighting Department, Production, and all other departments
 		\end{itemize}
-%\begin{comment}
-%\begin{minipage}[t]{.59\textwidth}
+        
+\begin{comment}
 	\JobHeader{Columbia College Chicago}{Chicago, IL}{Teacher's Assistant \& Projectionist}{August 2003 -- June 2006}
 		\begin{itemize}
             \item Assisted teachers with better conveying the class material -- occasionally teaching in teacher's absence
@@ -113,54 +125,52 @@ font=bf}
 		    \item Projected film in 35mm, 16mm, and digital formats 
 		    \item Maintained, troubleshot, and serviced equipment rentals, and controlling inventory
 		\end{itemize}
-%\end{comment}
-
-\sectionHeader{Education}
-	\JobHeader{Columbia College Chicago}{Chicago, IL}{B.A. Film/Video -- Cinematography Concentration}{2003 -- 2008}
-
-\begin{comment}
-\end{minipage}
-\fbox{
-\begin{minipage}[t]{.39\textwidth}
-    %\vspace{-1.5em}
-    \captionof{table}{
-     %   \hrule
-     %   \vspace{.2em}
-        \large{\textbf{Personal \& Public Projects}}
-        \hrule
-    }
-    \begin{tabular}{>{\bfseries}r|p{.49\textwidth}}
-        battleship & Multiplayer game written in Python -- eventually to be rewritten as a webapp \\
-        homelessgaffer.com & Simple CMS written with Flask \\
-        excercises & More words that will probably wrap\\
-    \end{tabular}
-\end{minipage}
-}
 \end{comment}
 
-\sectionHeader{Skills \& Interests}
+\begin{comment}
+\sectionHeader{PERSONAL \& PUBLIC PROJECTS}
+    \begin{tabular}{>{\bfseries}rl}
+        battleship & Multiplayer game written in Python -- eventually to be rewritten as a webapp\\ 
+        homelessgaffer.com & Simple CMS written in Python using Flask -- deployed using git-hooks\\
+        exercises & More words that will probably wrap\\
+        something & words\\
+        something & words\\ 
+    \end{tabular}
+\end{comment}
 
-\begin{minipage}[t]{0.49\textwidth}	
-	\begin{itemize}
-	    \item Adept in Windows, OS X, Linux, Chrome OS, Android, most office suites, \mbox{Final} Cut, Avid, QuickBooks, OpenERP, and various CMSs 
-	    \item Willingness and ability to learn new things and skills efficiently along with the patience to teach others
-	    \item Strong troubleshooting skills -- Always focused on efficiency and finding solutions
-	    \item Excellent communication skills -- able to take direction as well as lead a team
-	    \item Very capable of competently multitasking and able to keep up morale while doing just about anything
-	    \item Exceptional customer service -- capable of creating and maintaining long-term relationships
-	    \item Complete food, cooking, and cast iron nerd
-	\end{itemize}
-\end{minipage}
-\begin{minipage}[t]{0.49\textwidth}
-	\begin{itemize}
-	    \item Confident and comfortable with Python, Flask, HTML, CSS, JavaScript, \LaTeX
-	    \item Good understanding and capable of working with MySQL, MongoDB, PHP
-	    \item Prefers Vim for editing and Git for versioning
-	    \item Always reading about technologies, tinkering with gadgets, and an all around computer geek
-	    \item Passionate about cinema, cinematography, still photography -- specifically lighting
-	    \item Avid cyclist, wishful randonneur, and dedicated velodrome attendee
-        \item Currently learning Java and attempting to learn Spanish (albeit, muy lentamente)
-	\end{itemize}
-\end{minipage}
+\sectionHeader{PERSONAL \& PUBLIC PROJECTS}%
+\begin{description}%
+    \item[battleship] Multiplayer game written in Python -- eventually to be rewritten as a webapp
+    \item[homelessgaffer.com] Simple CMS written in Python using Flask -- deployed using git-hooks
+    \item[exercises] More words that will probably wrap
+    \item[something] words
+    \item[something] words
+\end{description}
+
+\sectionHeader{EDUCATION}
+	\JobHeader{Columbia College Chicago}{Chicago, IL}{B.A. Film/Video -- Cinematography Concentration}{2003 -- 2008}
+
+\sectionHeader{SKILLS \& INTERESTS}
+    \begin{minipage}[t]{0.49\textwidth}	
+    	\begin{itemize}
+    	    \item Adept in Linux, Windows, OS X, Chrome OS, Android
+    	    \item Confident and comfortable with Python, Flask, HTML, CSS, JavaScript, \LaTeX
+    	    \item Good understanding and capable of working with MySQL, MongoDB, PHP
+    	    \item Willingness and ability to learn new things and skills efficiently along with the patience to teach others
+    	    \item Strong troubleshooting skills -- Always focused on efficiency and finding solutions
+    	    \item Excellent communication skills -- able to take direction as well as lead a team
+    	\end{itemize}
+    \end{minipage}
+    \begin{minipage}[t]{0.49\textwidth}
+        \begin{itemize}
+    	    \item Very capable of competently multitasking and able to keep up morale while doing just about anything
+    	    \item Prefers Vim for editing, Git for versioning, and used Ubuntu since Hardy
+    	    \item Always reading about technologies, tinkering with gadgets, and an all around computer geek
+    	    \item Enjoys cooking and complete cast iron nerd
+    	    \item Passionate about cinema, cinematography, still photography -- specifically lighting
+    	    \item Avid cyclist, wishful randonneur, and dedicated velodrome attendee
+            \item Currently learning Java and attempting to learn Spanish (albeit, muy lentamente)
+    	\end{itemize}
+    \end{minipage}
 
 \end{document}
