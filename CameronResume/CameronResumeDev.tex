@@ -29,21 +29,26 @@
     parsep=0pt,
     partopsep=0pt,
     leftmargin=1em,
-    label=-}
+    labelsep=2pt
+    }%label=~}
 \setdescription{%                                %condenses description lists
     noitemsep,
     topsep=0pt,
     parsep=0pt,
-    partopsep=0pt}
+    partopsep=0pt,
+    labelsep=2pt}
+\renewcommand{\descriptionlabel}[1]{\textbf{\textsc{{#1} --}}}
 \usepackage{array}                          %allows bold in tabular
 \usepackage{microtype}
 
 \newcommand{%
     \JobHeader}[4]{%                         %job/school header
-    \textls{\textsc{{#1}%
+    \vspace{0.2em}
+    \textls{\textbf{\textsc{{#1}}}%
 	\hfill
-	{#2}}}
-	\\
+	\textsc{#2}}
+	\\%
+    \vspace{-0.2em}%
     \textsc{#3}
 	\hfill
     \textsc{#4}
@@ -51,17 +56,17 @@
 
 \newcommand{%
     \sectionHeader}[1]{%                     %header for sections
-    \vspace{0.2em}
-    \hrule
-    \vspace{0.2em}
-    \textls{{\textbf{#1}\dotfill}}%
+    \vspace{0.4em}%
+    \hrule%
+    \vspace{0.4em}%
+    \textls{{\textbf{\textsc{#1}}\dotfill}}%
     }
 
 \newcommand{%
     \objective}[1]{%
     \hrule
-    \vspace{0.2em}
-    \textls{{\textbf{OBJECTIVE: }}}{#1}}
+    \vspace{0.4em}
+    \textls{{\textbf{\textsc{OBJECTIVE: }}}}{#1}}%
 
 \fancyhead[L]{%
     \fontsize{24.88}{10pt}
@@ -77,7 +82,7 @@
 
 \begin{document}							% actual content starts here
 
-\objective{To successfully transition careers into development; seeking new challenges and stability.}
+\objective{To successfully transition careers into development; seeking new challenges and stability. Continuing onto the next line because I can.  It looks like I might even be able to go onto three lines \ldots let's see.}
 \sectionHeader{EXPERIENCE}
 
 	\JobHeader{MarketStar}{Indianapolis, IN}{Google Specialist}{November 2012 -- December 2012}
@@ -89,7 +94,7 @@
 		    \item Used, tested, troubleshot products, and reported bugs to the proper teams
 		\end{itemize}
 
-	\JobHeader{Orange 20 Bikes}{Los Angeles, CA}{IT Management \& Inventory Control}{October 2011 -- June 2012}
+    \JobHeader{Orange 20 Bikes}{Los Angeles, CA}{IT Management \& Inventory Control}{October 2011 -- June 2012}
 		\begin{itemize}	
 		    \item Designed and implemented improvements to POS and inventory control systems
 		    \item Created systems to improve employee communications -- greatly increasing efficiency and morale
@@ -107,7 +112,7 @@
 		    \item Handled equipment sales under \$35,000
 		\end{itemize}
 
-	\JobHeader{Various Productions}{Chicago, IL \& Los Angeles, CA}{Freelance Gaffer \& Best Boy Electric}{June 2002 -- June 2010}
+	\JobHeader{Various Motion Picture Productions}{Chicago, IL \& Los Angeles, CA}{Freelance Gaffer \& Best Boy Electric}{June 2002 -- June 2010}
 		\begin{itemize}
 		    \item Controlled the look of a film through lighting techniques with direction from the Director of Photography
 		    \item Managed a department and crew ranging from 2 to 20, including personnel decisions, records and budget
@@ -115,7 +120,7 @@
 		    \item Analyzed electrical needs and distributed power appropriately -- always keeping a safe and efficient set
 		    \item Acted as liaison between the Lighting Department, Production, and all other departments
 		\end{itemize}
-\begin{comment}        
+    \begin{comment}        
 	\JobHeader{Columbia College Chicago}{Chicago, IL}{Teacher's Assistant \& Projectionist}{August 2003 -- June 2006}
 		\begin{itemize}
             \item Assisted teachers with better conveying the class material -- occasionally teaching in teacher's absence
@@ -123,16 +128,16 @@
 		    \item Projected film in 35mm, 16mm, and digital formats 
 		    \item Maintained, troubleshot, and serviced equipment rentals, and controlling inventory
 		\end{itemize}
-\end{comment}
+    \end{comment}
 
 \sectionHeader{PERSONAL \& PUBLIC PROJECTS}
 
-    \begin{description}%
-        \item[\textls{battleship}] Multiplayer game written in Python -- eventually to be rewritten as a webapp
-        \item[\textls{homelessgaffer.com}] Simple CMS written in Python using Flask -- deployed using git-hooks
-        \item[\textls{exercises}] More words that will probably wrap
-        \item[\textls{something}] wordy words
-        \item[\textls{something}] words
+    \begin{description}
+        \item[battleship] Multiplayer game written in Python -- eventually to be rewritten as a webapp
+        \item[homelessgaffer.com] Simple CMS written in Python using Flask -- deployed using git-hooks
+        \item[exercises] More words that will probably wrap
+        \item[something] normal wordy words
+        \item[something] words
     \end{description}
 
 \sectionHeader{EDUCATION}
@@ -141,7 +146,7 @@
 
 \sectionHeader{SKILLS \& INTERESTS}
 
-    \begin{minipage}[t]{0.49\textwidth}	
+    \begin{minipage}[t]{0.5\textwidth}
     	\begin{itemize}
     	    \item Adept in Linux, Windows, OS X, Chrome OS, Android
     	    \item Confident and comfortable with Python, Flask, HTML, CSS, JavaScript, \LaTeX
@@ -151,7 +156,8 @@
     	    \item Excellent communication skills -- able to take direction as well as lead a team
     	\end{itemize}
     \end{minipage}
-    \begin{minipage}[t]{0.49\textwidth}
+    \vrule
+    \begin{minipage}[t]{0.5\textwidth}
         \begin{itemize}
     	    \item Very capable of competently multitasking and able to keep up morale while doing just about anything
     	    \item Prefers Vim for editing, Git for versioning, and used Ubuntu since Hardy
