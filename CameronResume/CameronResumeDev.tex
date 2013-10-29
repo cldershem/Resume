@@ -9,9 +9,6 @@
             %left=1in,
             ]{geometry}	                    %margins
 \usepackage{enumitem}
-%\usepackage[utf8]{inputenc}					%encoding
-%\usepackage[scaled]{helvet}					%sets font
-%\usepackage{tgpagella}
 \usepackage{libertine}
 \usepackage[T1]{fontenc}
 \renewcommand*\familydefault{\sfdefault} 	%sets sans serif
@@ -42,10 +39,9 @@
 \usepackage{microtype}
 \usepackage{multicol}
 \setlength\multicolsep{0pt}
-\setlength{\columnseprule}{1pt}
+%\setlength{\columnseprule}{1pt}
 
-\newcommand{%
-    \JobHeader}[4]{%                         %job/school header
+\newcommand{\JobHeader}[4]{%                %job/school header
     \vspace{0.2em}
     \textls{\textbf{\textsc{{#1}}}%
 	\hfill
@@ -57,19 +53,28 @@
     \textsc{#4}
 	}
 
-\newcommand{%
-    \sectionHeader}[1]{%                     %header for sections
+\newcommand{\sectionHeader}[1]{%            %header for sections
     \vspace{0.4em}%
     \hrule%
     \vspace{0.4em}%
     \textls{{\textbf{\textsc{#1}}\dotfill}}%
     }
 
-\newcommand{%
-    \objective}[1]{%
+\newcommand{\objective}[1]{%
     \hrule
     \vspace{0.4em}
     \textls{{\textbf{\textsc{OBJECTIVE: }}}}{#1}}%
+
+\usepackage{etoolbox}                       %used to toggle Dev/Generic
+\newbool{isGeneric}
+%\booltrue{isGeneric}
+\boolfalse{isGeneric}
+
+\newcommand{\showGeneric}[1]{%
+    \ifbool{isGeneric}{{#1}}{}}
+
+\newcommand{\showDev}[1]{%
+    \ifbool{isGeneric}{}{{#1}}}
 
 \fancyhead[L]{%
     \fontsize{24.88}{10pt}
@@ -85,7 +90,16 @@
 
 \begin{document}							% actual content starts here
 
-\objective{To successfully transition careers into development; seeking new challenges and stability. Continuing onto the next line because I can.  It looks like I might even be able to go onto three lines \ldots let's see.}
+\showDev{\objective{%
+%    To gain experience and knowledge while transitioning careers into application development by leveraging my enthusiasm for finding and building solutions along with my compulsion for efficiency and simplicity.}}
+%    \begin{comment}
+        To successfully transition careers into application development %
+        by leveraging my enthusiasm for finding and building %
+        solutions along with my compulsion for efficiency and simplicity; %
+        obtaining an entry level position to gain experience and knowledge %
+        -- seeking new challenges and stability.%
+        }}%
+%    \end{comment}
 \sectionHeader{EXPERIENCE}
 
 	\JobHeader{MarketStar}{Indianapolis, IN}{Google Specialist}{November 2012 -- December 2012}
@@ -123,7 +137,7 @@
 		    \item Analyzed electrical needs and distributed power appropriately -- always keeping a safe and efficient set
 		    \item Acted as liaison between the Lighting Department, Production, and all other departments
 		\end{itemize}
-    \begin{comment}        
+    \showGeneric{%
 	\JobHeader{Columbia College Chicago}{Chicago, IL}{Teacher's Assistant \& Projectionist}{August 2003 -- June 2006}
 		\begin{itemize}
             \item Assisted teachers with better conveying the class material -- occasionally teaching in teacher's absence
@@ -131,17 +145,19 @@
 		    \item Projected film in 35mm, 16mm, and digital formats 
 		    \item Maintained, troubleshot, and serviced equipment rentals, and controlling inventory
 		\end{itemize}
-    \end{comment}
+    }
 
+\showDev{%
 \sectionHeader{PERSONAL \& PUBLIC PROJECTS}
 
     \begin{description}
         \item[battleship] Multiplayer game written in Python -- eventually to be rewritten as a webapp
         \item[homelessgaffer.com] Simple CMS written in Python using Flask -- deployed using git-hooks
-        \item[exercises] More words that will probably wrap
-        \item[something] normal wordy words
-        \item[something] words
+        %\item[exercises] words that will probably wrap
+        %\item[something] normal wordy words
+        %\item[something] words
     \end{description}
+}
 
 \sectionHeader{EDUCATION}
 
