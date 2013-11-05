@@ -1,0 +1,27 @@
+ 41 \newcommand{%
+ 42     \JobHeader}[4]{%                         %job/school header
+ 43     %\textls{\textsc{\textbf{#1}
+ 44     %\hfill
+ 45     %\textbf{#2}}}
+ 46     \textls{\textsc{{#1}%
+ 47     \hfill
+ 48     {#2}}}
+ 49     \\
+ 50     %\emph{#3}
+ 51     \textsc{#3}
+ 52     \hfill
+ 53     %\emph{#4}
+ 54     \textsc{#4}
+ 55     }
+ 56 
+ 57 \newcommand{%
+ 58     \sectionHeader}[1]{%                     %header for sections
+ 59     \vspace{0.2em}
+ 60     \hrule
+ 61     \vspace{0.2em}
+ 62     \textls{{\textbf{#1}}}%
+ 63     \vspace{0.2em}
+ 64     %\hrule
+ 65     \\
+ 66     %\vspace{0.2em}%
+ 67     }

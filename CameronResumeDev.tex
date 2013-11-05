@@ -42,12 +42,10 @@
 %\setlength{\columnseprule}{1pt}
 
 \newcommand{\JobHeader}[4]{%                %job/school header
-    \vspace{0.2em}
     \textls{\textbf{\textsc{{#1}}}%
 	\hfill
 	\textsc{#2}}
 	\\%
-    \vspace{-0.2em}%
     \textsc{#3}
 	\hfill
     \textsc{#4}
@@ -78,7 +76,7 @@
 
 \fancyhead[L]{%
     \fontsize{24.88}{10pt}
-    \selectfont Cameron Dershem}
+    \selectfont \textsc{Cameron Dershem}}
 \fancyhead[R]{%
     cldershem@gmail.com \textbar{}
     312.361.0322 \textbar{}
@@ -91,15 +89,12 @@
 \begin{document}							% actual content starts here
 
 \showDev{\objective{%
-%    To gain experience and knowledge while transitioning careers into application development by leveraging my enthusiasm for finding and building solutions along with my compulsion for efficiency and simplicity.}}
-%    \begin{comment}
         To successfully transition careers into application development %
-        by leveraging my enthusiasm for finding and building %
-        solutions along with my compulsion for efficiency and simplicity; %
-        obtaining an entry level position to gain experience and knowledge %
-        -- seeking new challenges and stability.%
+        by obtaining an entry-level position to gain experience and %
+        knowledge.  Seeking new challenges and stability by %
+        leveraging an enthusiasm for efficiency and simplicity while %
+        finding and building solutions.%
         }}%
-%    \end{comment}
 \sectionHeader{EXPERIENCE}
 
 	\JobHeader{MarketStar}{Indianapolis, IN}{Google Specialist}{November 2012 -- December 2012}
@@ -148,11 +143,11 @@
     }
 
 \showDev{%
-\sectionHeader{PERSONAL \& PUBLIC PROJECTS}
+    \sectionHeader{PERSONAL \& PUBLIC PROJECTS}
 
     \begin{description}
-        \item[battleship] Multiplayer game written in Python -- eventually to be rewritten as a webapp
-        \item[homelessgaffer.com] Simple CMS written in Python using Flask -- deployed using git-hooks
+        \item[Battleship] Multiplayer game written in Python -- eventually to be rewritten as a web app
+        \item[HomelessGaffer.com] Simple CMS written in Python using Flask -- deployed using git-hooks
         %\item[exercises] words that will probably wrap
         %\item[something] normal wordy words
         %\item[something] words
