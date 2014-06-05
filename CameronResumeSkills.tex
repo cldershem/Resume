@@ -1,0 +1,209 @@
+%CameronResumeDev.tex
+\author{Cameron Dershem}                    %top matter
+\title{Cameron Dershem Resume}              %top matter
+\documentclass[letterpaper]{article}        %document class
+\usepackage[
+  letterpaper,
+  top=1in,
+  bottom=0.5in,
+  %right=1in,
+  %left=1in,
+  ]{geometry}                     %margins
+\usepackage{enumitem}
+\usepackage{libertine}
+\usepackage[T1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}    %sets sans serif
+\usepackage{fancyhdr}
+\pagestyle{fancy}                           %header
+\pagenumbering{gobble}                      %removes page numbers
+\setlength{\parindent}{0pt}                 %removes indents
+\usepackage{verbatim}                       %allows comments
+\renewcommand{\headrulewidth}{0pt}          %removes header rule
+\setlength{\headheight}{30.0pt}             %gives header room
+\setlength{\headsep}{-1.0em}                %removes space below header
+\setitemize{%                               %condenses itemized lists
+  noitemsep,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt,
+  leftmargin=1em,
+  labelsep=2pt
+  }%label=~}
+\setdescription{%                           %condenses description lists
+  noitemsep,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt,
+  labelsep=2pt}
+\renewcommand{\descriptionlabel}[1]{\textbf{\textsc{{#1} --}}}
+\usepackage{array}                          %allows bold in tabular
+\usepackage{microtype}
+\usepackage{multicol}
+\setlength\multicolsep{0pt}
+%\setlength{\columnseprule}{1pt}
+
+\newcommand{\JobHeader}[4]{%                %job/school header
+  \textls{\textbf{\textsc{{#1}}}%
+  \hfill
+  \textsc{#2}}
+  \\%
+  \textsc{#3}
+  \hfill
+  \textsc{#4}
+  }
+
+\newcommand{\sectionHeader}[1]{%            %header for sections
+  \vspace{0.4em}%
+  \hrule%
+  \vspace{0.4em}%
+  \textls{{\textbf{\textsc{#1}}\dotfill}}%
+  }
+
+\newcommand{\objective}[1]{%
+  \hrule
+  \vspace{0.4em}
+  \textls{{\textbf{\textsc{OBJECTIVE:\@ }}}}{#1}}%
+
+\usepackage{etoolbox}                       %used to toggle Dev/Generic
+\newbool{isGeneric}
+% \booltrue{isGeneric}
+\boolfalse{isGeneric}
+
+\newcommand{\showGeneric}[1]{%
+  \ifbool{isGeneric}{{#1}}{}}
+
+\newcommand{\showDev}[1]{%
+  \ifbool{isGeneric}{}{{#1}}}
+
+\fancyhead[L]{%
+  \fontsize{24.88}{10pt}
+  \selectfont \textsc{Cameron Dershem}}
+\fancyhead[R]{%
+  cldershem@gmail.com \textbar{}
+  312.361.0322 \textbar{}
+  Indianapolis, IN
+  \\
+  homelessgaffer.com \textbar{}
+  github.com/cldershem%
+  }
+
+\begin{document}                            % actual content starts here
+
+\objective{%
+  To successfully transition careers into application development %
+  by obtaining an entry-level position to gain experience and %
+  knowledge.  Seeking new challenges and stability by %
+  leveraging an enthusiasm for efficiency and simplicity while %
+  finding and building solutions.%
+  }%
+\sectionHeader{SKILLS \& INTERESTS}
+  \begin{multicols}{3}
+    \sectionHeader{OSes:}
+      \begin{itemize}
+        \item Linux \hfill advanced 
+        \item Windows \hfill intermediate
+        \item OS X \hfill intermediate
+        \item Chrome OS \hfill expert
+        \item Android \hfill expert
+        \item Ubuntu \hfill advanced
+      \end{itemize}
+    \sectionHeader{Languages:}
+      \begin{itemize}
+        \item Python \hfill intermediate
+        \item HTML \hfill intermediate
+        \item CSS \hfill intermediate
+        \item LESS \hfill intermediate
+        \item JavaScript
+        \item \LaTeX{} \hfill intermediate
+        \item Bash
+        \item PHP beginner
+        \item C \hfill novice
+      \end{itemize}
+    \sectionHeader{Frameworks:}
+      \begin{itemize}
+        \item Flask \hfill 1 year
+      \end{itemize}
+    \sectionHeader{Database:}
+      \begin{itemize}
+        \item MySQL
+        \item MongoDB
+      \end{itemize}
+    \sectionHeader{Tools:}
+      \begin{itemize}
+        \item Vim
+        \item Git
+        \item Adobe CS
+      \end{itemize}
+
+    \sectionHeader{Other:}
+      \begin{itemize}
+        \item quick learner
+        \item always learning
+        \item ability to teach
+        \item Strong troubleshooting skills
+        \item solution focused
+        \item focused on efficiency
+        \item multitasking
+        \item keep up morale while doing just about anything
+        \item takes direction
+        \item ability to lead
+        \item Sales
+        \item Customer service, support, \& training
+        \item Testing, troubleshooting, reporting bugs
+        \item Designed and implemented inventory control systems
+        \item improved POS
+        \item improve communications
+        \item Trained management, employees, peers, and clients
+        \item Developed training methods and materials
+        \item manage rentals dept.
+        \item lighting
+        \item management - personnel, records, budget
+        \item crew safety
+        \item designed and distributed power and lighting
+        \item promoted departmental communication
+        \item Student and faculty support
+        \item Occasionally taught
+        \item Projected film
+        \item equipment acquisition, inventory, maintenance, service, troubleshooting, bug reporting
+      \end{itemize}
+  \end{multicols}
+
+\sectionHeader{PERSONAL \& PUBLIC PROJECTS}
+
+  \begin{description}
+    \item[Battleship] Multiplayer game written in Python---eventually to be rewritten as a web app
+    \item[HomelessGaffer.com] Simple CMS written in Python using Flask---deployed using git-hooks
+  \end{description}
+
+\sectionHeader{EDUCATION}
+
+  \JobHeader{Columbia College Chicago}{Chicago, IL}{B.A. Film/Video---Cinematography Concentration}{2003--2008}
+
+\sectionHeader{EXPERIENCE}
+
+  \JobHeader{MarketStar}{Indianapolis, IN}{Google Specialist}{November 2012--December 2012}
+    \begin{itemize}
+      \item Wordy words Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.
+    \end{itemize}
+
+  \JobHeader{Orange 20 Bikes}{Los Angeles, CA}{IT Management \& Inventory Control}{October 2011--June 2012}
+    \begin{itemize}
+      \item Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.
+    \end{itemize}
+
+  \JobHeader{Camadeus Film Technologies, Inc}{Los Angeles, CA}{Rental Agent}{June 2010--September 2011}
+    \begin{itemize}
+      \item More words Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.
+    \end{itemize}
+
+  \JobHeader{Various Motion Picture Productions}{Chicago, IL \& Los Angeles, CA}{Freelance Gaffer \& Best Boy Electric}{June 2002--June 2010}
+    \begin{itemize}
+      \item Word word word words Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.
+    \end{itemize}
+
+  \JobHeader{Columbia College Chicago}{Chicago, IL}{Teacher's Assistant \& Projectionist}{August 2003--June 2006}
+    \begin{itemize}
+      \item Double words Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.
+    \end{itemize}
+
+\end{document}
