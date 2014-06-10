@@ -1,0 +1,160 @@
+{
+  "contact": {
+    "name": "Cameron Dershem",
+    "email": "cldershem@gmail.com",
+    "phone": "312.361.0322",
+    "address": "Indianapolis, IN",
+    "website": "homelessgaffer.com",
+    "github": "github.com/cldershem"
+  },
+  "objective": "To successfully transition careers into application development by obtaining an entry-level position to gain experience and knowledge.  Seeking new challenges and stability by leveraging an enthusiasm for efficiency and simplicity while finding and building solutions.",
+  "skills": {
+    "OSes": [
+      ["GNU/Linux", "advanced"],
+      ["Windows", "intermediate"],
+      ["OS X", "advanced"],
+      ["Chrome OS", "expert"],
+      ["Android", "expert"],
+      ["Ubuntu", "advanced"]
+      ],
+    "Languages": [
+      ["Python", "intermediate"],
+      ["HTML", "intermediate"],
+      ["CSS", "intermediate"],
+      ["LESS", "intermediate"],
+      ["JavaScript", "novice"],
+      ["LaTeX", "intermediate"],
+      ["C", "novice"],
+      ["sh", "intermediate"]
+      ],
+    "Frameworks": [
+      ["Flask", "intermediate"]
+      ],
+    "Datebase": [
+      ["MySQL", "novice"],
+      ["MongoDB", "novice"]
+      ],
+    "Tools": [
+      ["Vim", "intermediate"],
+      ["Git", "intermediate"],
+      ["Adobe CS", "intermediate"],
+      ["Vagrant", "novice"],
+      ["Docker", "novice"],
+      ["VirtualBox", "intermediate"]
+      ],
+    "Methodologies": [
+      "OOP",
+      "MVC",
+      "TDD",
+      "Agile",
+      ],
+    "Misc": [
+      "networking",
+      "quick learner",
+      "always learning",
+      "ability to teach",
+      "strong troubleshooting skills",
+      "solutions focused",
+      "focused on efficiency",
+      "mulitasking",
+      "takes direction",
+      "ability to lead"
+      ]
+  },
+  "Skills & Interests": [
+    "Adept in Linux, Windows, OS X, Chrome OS, Android",
+    "Confident and comfortable with Python, Flask, HTML, CSS, LESS, JavaScript, LaTeX, Bash",
+    "Good understanding and capable of working with MySQL, MongoDB, PHP",
+    "Willingness and ability to learn new products and skills efficiently along with the patience to teach others",
+    "Strong troubleshooting skills---always focused on efficiency and finding solutions",
+    "Very capable of competently multitasking and able to keep up morale while doing just about anything",
+    "Excellent communication skills---able to take direction as well as lead a team",
+    "Prefers Vim for editing, Git for versioning, and been an Ubuntu user since Hardy",
+    "Always reading about technologies, tinkering with gadgets, and an all around geek",
+    "Enjoys cooking and complete cast iron nerd",
+    "Passionate about cinema, cinematography, still photography---specifically lighting",
+    "Avid cyclist, wishful randonneur, and dedicated velodrome attendee",
+    "Currently learning Java and attempting to learn Spanish (albeit, muy lentamente)"
+  ],
+  "Personal & Public Projects": {
+    "battleship": "Multiplayer game written in Python---currently being rewritten as a web app",
+    "HomelessGaffer.com": "Simple CMS written in Python using Flask---deployed using git-hooks"
+  },
+  "Education": {
+    "school": "Columbia College Chicago",
+    "location": "Chicago, IL",
+    "degree": "B.A. Film/Video---Cinematography Concentration",
+    "time": "2003--2008"
+  },
+  "Experience": {
+    "marketstar": {
+      "name": "MarketStar",
+      "location": "Indianapolis, IN",
+      "title": "Google Specialist",
+      "time": "November 2012--December 2012",
+      "short description": "Educated guests and colleagues on the Google Chromebook, answered questions on the Google ecosystem, developed training methods, used, tested, troubleshot, and reported bugs",
+      "long description": [
+        "Educated guests on Google's ecosystem and products, focusing on the Google Chromebook",
+        "Answered questions involving Google and how it could better the guests' current needs",
+        "Developed training methods for the continued education of colleagues",
+        "Assisted guests with questions and issues---finding the answer even if it was not a Google product",
+        "Used, tested, troubleshot products, and reported bugs to the proper teams"
+      ]
+    },
+    "orange20": {
+      "name": "Orange 20 Bikes",
+      "location": "Los Angeles, CA",
+      "title": "IT Management & Inventory Control",
+      "time": "October 2011--June 2012",
+      "short description": "Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.",
+      "long description": [
+        "Designed and implemented improvements to POS and inventory control systems",
+        "Created systems to improve employee communications---greatly increasing efficiency and morale",
+        "Trained management and employees on best practices to reduce loss, save time, and save money",
+        "Outlined and deployed classes for continued education of employees and management"
+      ]
+    },
+    "camadeus": {
+      "name": "Camadeus Film Technologies, Inc",
+      "location": "Los Angeles, CA",
+      "title": "Rental Agent",
+      "time": "June 2010--September 2011",
+      "short description": "Managed rental department, implemented and maintained inventory control system, organized and led workshops to educate clients and employees, serviced, maintained, reported bugs, customer support, and equipment sales",
+      "long description": [
+        "Implemented and maintained a new inventory control system---improving office and warehouse efficiency",
+        "Organized and lead workshops and demonstrations to educate and train clients as well as employees",
+        "Maintained equipment regularly---troubleshooting, servicing, and reporting bugs as needed",
+        "Provided on call support by phone and on location---making sure the client could make their day",
+        "Coordinated rentals from initial contact to delivery, invoicing, subrentals, returns, and follow ups",
+        "Handled equipment sales under $35,000"
+      ]
+    },
+    "film": {
+      "name": "Various Motion Picture Productions",
+      "location": "Chicago, IL & Los Angeles, CA",
+      "title": "Freelance Gaffer & Best Boy Electric",
+      "time": "June 2002--June 2010",
+      "short description": "Managed Lighting department, personnel, equipment, records, and budget with safety and efficiency as a priority, appropriated, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power needs, acted as liaison between departments",
+      "long description": [
+        "Controlled the look of a film through lighting techniques with direction from the Cinematographer%Director of Photography",
+        "Managed a department and crew ranging from 2--20---including personnel decisions, records, and budget",
+        "Appropriated, inventoried, serviced, and maintained equipment for the duration of the job",
+        "Analyzed electrical needs and distributed power appropriately---always keeping a safe and efficient set",
+        "Acted as liaison between the Lighting Department, Production, and all other departments"
+      ]
+    },
+    "columbia": {
+      "name": "Columbia College Chicago",
+      "location": "Chicago, IL",
+      "title": "Teacher's Assistant & Projectionist",
+      "time": "August 2003--June 2006",
+      "short description": "Did some stuff.",
+      "long description": [
+        "Managed equipment rentals---including maintaining, troubleshooting, and servicing equipment as needed",
+        "Answered questions from students and assisted teachers in better conveying class material",
+        "Occasionally taught classes in teacher's absence",
+        "Projected film in 35mm, 16mm, and digital formats"
+      ]
+    }
+  }
+}
