@@ -46,7 +46,7 @@
       "OOP",
       "MVC",
       "TDD",
-      "Agile",
+      "Agile"
       ],
     "Misc": [
       "networking",
@@ -92,8 +92,8 @@
       "location": "Indianapolis, IN",
       "title": "Google Specialist",
       "time": "November 2012--December 2012",
-      "short description": "Educated guests and colleagues on the Google Chromebook, answered questions on the Google ecosystem, developed training methods, used, tested, troubleshot, and reported bugs",
-      "long description": [
+      "short_description": "Educated guests and colleagues on the Google Chromebook, answered questions on the Google ecosystem, developed training methods, used, tested, troubleshot, and reported bugs",
+      "long_description": [
         "Educated guests on Google's ecosystem and products, focusing on the Google Chromebook",
         "Answered questions involving Google and how it could better the guests' current needs",
         "Developed training methods for the continued education of colleagues",
@@ -106,8 +106,8 @@
       "location": "Los Angeles, CA",
       "title": "IT Management & Inventory Control",
       "time": "October 2011--June 2012",
-      "short description": "Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.",
-      "long description": [
+      "short_description": "Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.",
+      "long_description": [
         "Designed and implemented improvements to POS and inventory control systems",
         "Created systems to improve employee communications---greatly increasing efficiency and morale",
         "Trained management and employees on best practices to reduce loss, save time, and save money",
@@ -119,8 +119,8 @@
       "location": "Los Angeles, CA",
       "title": "Rental Agent",
       "time": "June 2010--September 2011",
-      "short description": "Managed rental department, implemented and maintained inventory control system, organized and led workshops to educate clients and employees, serviced, maintained, reported bugs, customer support, and equipment sales",
-      "long description": [
+      "short_description": "Managed rental department, implemented and maintained inventory control system, organized and led workshops to educate clients and employees, serviced, maintained, reported bugs, customer support, and equipment sales",
+      "long_description": [
         "Implemented and maintained a new inventory control system---improving office and warehouse efficiency",
         "Organized and lead workshops and demonstrations to educate and train clients as well as employees",
         "Maintained equipment regularly---troubleshooting, servicing, and reporting bugs as needed",
@@ -134,8 +134,8 @@
       "location": "Chicago, IL & Los Angeles, CA",
       "title": "Freelance Gaffer & Best Boy Electric",
       "time": "June 2002--June 2010",
-      "short description": "Managed Lighting department, personnel, equipment, records, and budget with safety and efficiency as a priority, appropriated, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power needs, acted as liaison between departments",
-      "long description": [
+      "short_description": "Managed Lighting department, personnel, equipment, records, and budget with safety and efficiency as a priority, appropriated, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power needs, acted as liaison between departments",
+      "long_description": [
         "Controlled the look of a film through lighting techniques with direction from the Cinematographer%Director of Photography",
         "Managed a department and crew ranging from 2--20---including personnel decisions, records, and budget",
         "Appropriated, inventoried, serviced, and maintained equipment for the duration of the job",
@@ -148,8 +148,8 @@
       "location": "Chicago, IL",
       "title": "Teacher's Assistant & Projectionist",
       "time": "August 2003--June 2006",
-      "short description": "Did some stuff.",
-      "long description": [
+      "short_description": "Did some stuff.",
+      "long_description": [
         "Managed equipment rentals---including maintaining, troubleshooting, and servicing equipment as needed",
         "Answered questions from students and assisted teachers in better conveying class material",
         "Occasionally taught classes in teacher's absence",
