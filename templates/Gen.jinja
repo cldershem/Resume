@@ -1,0 +1,62 @@
+%CameronResumeDev.tex
+\author{Cameron Dershem}                    %top matter
+\title{Cameron Dershem Resume}              %top matter
+\documentclass[letterpaper]{article}        %document class
+\usepackage{ResumeStyle}
+\begin{document}                            % actual content starts here
+
+\sectionHeader{EXPERIENCE}
+
+  {% for item in data['Experience'] -%}
+  {% for key in item -%}
+  \JobHeader{
+  {{- item[key]['name'] }}
+  }{
+  {{ item[key]['location'] }}
+  }{
+  {{ item[key]['title'] }}
+  }{
+  {{ item[key]['time'] }}
+  }
+  \begin{itemize}
+  {% for item in item[key]['long_description'] %}
+  \item {{ item }}
+  {% endfor %}
+  \end{itemize}
+  {% endfor %}
+  {% endfor %}
+
+
+\sectionHeader{PERSONAL \& PUBLIC PROJECTS}
+
+  \begin{description}
+    {% for item in data['PersonalPublicProjects'] -%}
+    \item[{{item}}] {{ data['PersonalPublicProjects'][item] }}
+    {% endfor %}
+  \end{description}
+
+\sectionHeader{EDUCATION}
+
+    {% set ed = data['Education'] -%}
+    \JobHeader{
+    {{- ed['name'] }}
+    }{
+    {{ ed['location'] }}
+    }{
+    {{ ed['degree'] }}
+    }{
+    {{ ed['time'] }}
+    }
+
+
+\sectionHeader{SKILLS \& INTERESTS}
+
+  \begin{multicols}{2}
+    \begin{itemize}
+    {% for item in data['SkillsInterests'] %}
+    \item {{ item }}
+    {% endfor %}
+    \end{itemize}
+  \end{multicols}
+
+\end{document}

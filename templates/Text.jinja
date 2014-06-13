@@ -1,0 +1,43 @@
+{% for info in data['contact'] -%}
+{% for key, value in info.iteritems() -%}
+{{ value }}
+{% endfor -%}
+{% endfor %}
+Objective:  {{ data['objective'] }}
+Skills:
+    {% for skill in data['skills'] -%}
+    {%- for key in skill -%}
+    {{- key }}:
+        {% for item in skill[key] -%}
+        {% if item is string -%}
+            {{ item }}
+        {% else -%}
+        {% for key, value in item.iteritems() -%}
+            {{ key }}: {{ value }}
+        {% endfor -%}
+        {% endif -%}
+        {% endfor -%}
+    {%- endfor %}
+    {% endfor %}
+Skills & Interests:
+    {%- for item in data['SkillsInterests'] %}
+    {{ item -}}
+    {% endfor %}
+
+Personal & Public Projects:
+    {% for item in data['PersonalPublicProjects'] -%}
+    {{ item }}: {{ data['PersonalPublicProjects'][item] }}
+    {% endfor %}
+Education:
+    {% set ed = data['Education'] -%}
+    {{ ed['name'] }} | {{ ed['location'] }}
+    {{ ed['degree'] }} | {{ ed['time'] }}
+Experience:
+    {% for item in data['Experience'] -%}
+    {% for key in item -%}
+    {{ item[key]['name'] }} | {{ item[key]['location'] }}
+    {{ item[key]['title'] }} | {{ item[key]['time'] }}
+    {{ item[key]['short_description'] }}
+    {% endfor %}
+    {% endfor %}
+

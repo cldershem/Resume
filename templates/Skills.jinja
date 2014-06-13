@@ -1,0 +1,79 @@
+%CameronResumeDev.tex
+\author{Cameron Dershem}                    %top matter
+\title{Cameron Dershem Resume}              %top matter
+\documentclass[letterpaper]{article}        %document class
+\usepackage{ResumeStyle}
+\begin{document}                            % actual content starts here
+
+\objective{
+    {{ data['objective'] }}
+  }
+\sectionHeader{SKILLS}
+  \begin{multicols}{3}
+    {% for skill in data['skills'] -%}
+    {%- for key in skill -%}
+    \subSectionHeader{
+    {{key}}%
+    }
+      \begin{itemize}
+        {% for item in skill[key] -%}
+        {% if item is string -%}
+            \item {{ item }}
+        {% else -%}
+            {% for key, value in item.iteritems() -%}
+            \itemLevel{
+            {{ key }}
+            }{
+            {{ value }}
+            }
+            {% endfor -%}
+        {% endif -%}
+        {% endfor %}
+      \end{itemize}
+    {% endfor %}
+    {% endfor %}
+  \end{multicols}
+
+\sectionHeader{PERSONAL \& PUBLIC PROJECTS}
+
+  \begin{description}
+    {% for item in data['PersonalPublicProjects'] -%}
+    \item[{{item}}] {{ data['PersonalPublicProjects'][item] }}
+    {% endfor %}
+  \end{description}
+
+\sectionHeader{EDUCATION}
+
+    {% set ed = data['Education'] -%}
+    \JobHeader{
+    {{- ed['name'] }}
+    }{
+    {{ ed['location'] }}
+    }{
+    {{ ed['degree'] }}
+    }{
+    {{ ed['time'] }}
+    }
+
+\sectionHeader{EXPERIENCE}
+
+  {% for item in data['Experience'] -%}
+  {% for key in item -%}
+  {% if key != 'columbia' %}
+  \JobHeader{
+  {{- item[key]['name'] }}
+  }{
+  {{ item[key]['location'] }}
+  }{
+  {{ item[key]['title'] }}
+  }{
+  {{ item[key]['time'] }}
+  }
+    \begin{itemize}
+    \item {{ item[key]['short_description'] }}
+    \end{itemize}
+  {% endif -%}
+  {% endfor -%}
+  {% endfor -%}
+
+\end{document}
