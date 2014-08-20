@@ -47,10 +47,10 @@ Skills:
         Agile
         
     Misc:
-        networking
+        tcp/ip networking
         quick learner
         always learning
-        ability to teach
+        ability to teach and to lead
         strong troubleshooting skills
         solutions focused
         focused on efficiency

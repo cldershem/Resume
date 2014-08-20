@@ -23,8 +23,10 @@ skills:
         - \LaTeX{}: intermediate
         - C: novice
         - sh: intermediate
+        - Java: beginner
     - Frameworks:
         - Flask: intermediate
+        - Django: novice
     - Datebase:
         - MySQL: novice
         - MongoDB: novice
@@ -40,17 +42,21 @@ skills:
         - MVC
         - TDD
         - Agile
+    - CMSes:
+        - Wordpress: intermediate
+        - Drupal: intermediate, but out-of-date
+        - TikiWiki: intermediate
+        - Plone: novice
+        - MediaWiki: novice
     - Misc:
-        - networking
-        - quick learner
-        - always learning
-        - ability to teach
-        - strong troubleshooting skills
-        - solutions focused
-        - focused on efficiency
-        - mulitasking
-        - takes direction
-        - ability to lead
+        - tcp/ip networking
+    - Soft Skills:
+        - expert learner
+        - adept teacher
+        - dedicated troubleshooter
+        - focused on solutions
+        - devoted to efficiency
+        - can lead as well as be led
 SkillsInterests:
     - Adept in Linux, Windows, OS X, Chrome OS, Android
     - Confident and comfortable with Python, Flask, HTML, CSS, LESS, JavaScript, \LaTeX{}, Bash
@@ -114,7 +120,7 @@ Experience:
         location: Chicago, IL \& Los Angeles, CA
         title: Freelance Gaffer \& Best Boy Electric
         time: June 2002--June 2010
-        short_description: Managed Lighting department, personnel, equipment, records, and budget with safety and efficiency as a priority, appropriated, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power needs, acted as liaison between departments
+        short_description: Managed Lighting Department, personnel, equipment, records, and budget with safety and efficiency as a priority, appropriated, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power needs, acted as liaison between departments
         long_description:
             - Controlled the look of a film through lighting techniques with direction from the Cinematographer
             - Managed a department and crew ranging from 2--20---including personnel decisions, records, and budget

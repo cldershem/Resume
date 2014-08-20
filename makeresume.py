@@ -29,10 +29,11 @@ env = Environment(loader=FileSystemLoader(
 
 templates = [
     ('Skills', 'tex'),
-    ('Gen', 'tex'),
-    # ('Html', 'html'),
-    ('Text', 'text'),
-    ('Dev', 'tex'),
+    # ('CoverLetter', 'tex'),
+    # ('Gen', 'tex'),
+    # # ('Html', 'html'),
+    # ('Text', 'text'),
+    # ('Dev', 'tex'),
     ]
 
 prefix = 'CameronDershemResume-'
