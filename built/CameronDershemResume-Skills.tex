@@ -3,6 +3,7 @@
 \title{Cameron Dershem Resume}              %top matter
 \documentclass[letterpaper]{article}        %document class
 \usepackage{ResumeStyle}
+\usepackage{needspace}
 \begin{document}                            % actual content starts here
 
 \objective{
@@ -10,42 +11,6 @@
   }
 \sectionHeader{SKILLS}
   \begin{multicols}{3}
-    \subSectionHeader{
-    OSes%
-    }
-      \begin{itemize}
-        \itemLevel{
-            GNU/Linux
-            }{
-            advanced
-            }
-            \itemLevel{
-            Windows
-            }{
-            intermediate
-            }
-            \itemLevel{
-            OSX
-            }{
-            advanced
-            }
-            \itemLevel{
-            ChromeOS
-            }{
-            expert
-            }
-            \itemLevel{
-            Android
-            }{
-            expert
-            }
-            \itemLevel{
-            Ubuntu
-            }{
-            advanced
-            }
-            \end{itemize}
-    
     \subSectionHeader{
     Languages%
     }
@@ -91,11 +56,17 @@
             intermediate
             }
             \itemLevel{
-            java
+            Java
             }{
             beginner
             }
+            \itemLevel{
+            PHP
+            }{
+            novice
+            }
             \end{itemize}
+        \needspace{1\baselineskip}
     
     \subSectionHeader{
     Frameworks%
@@ -112,6 +83,7 @@
             novice
             }
             \end{itemize}
+        \needspace{1\baselineskip}
     
     \subSectionHeader{
     Datebase%
@@ -128,6 +100,7 @@
             novice
             }
             \end{itemize}
+        \needspace{1\baselineskip}
     
     \subSectionHeader{
     Tools%
@@ -164,6 +137,7 @@
             intermediate
             }
             \end{itemize}
+        \needspace{1\baselineskip}
     
     \subSectionHeader{
     Methodologies%
@@ -173,7 +147,9 @@
         \item MVC
         \item TDD
         \item Agile
+        \item REST
         \end{itemize}
+        \needspace{1\baselineskip}
     
     \subSectionHeader{
     CMSes%
@@ -187,7 +163,7 @@
             \itemLevel{
             Drupal
             }{
-            intermediate, but out-of-date
+            intermediate, up to v6
             }
             \itemLevel{
             TikiWiki
@@ -205,6 +181,7 @@
             novice
             }
             \end{itemize}
+        \needspace{1\baselineskip}
     
     \subSectionHeader{
     Misc%
@@ -212,6 +189,44 @@
       \begin{itemize}
         \item tcp/ip networking
         \end{itemize}
+        \needspace{1\baselineskip}
+    
+    \subSectionHeader{
+    OSes%
+    }
+      \begin{itemize}
+        \itemLevel{
+            GNU/Linux
+            }{
+            advanced
+            }
+            \itemLevel{
+            Windows
+            }{
+            intermediate
+            }
+            \itemLevel{
+            OSX
+            }{
+            advanced
+            }
+            \itemLevel{
+            ChromeOS
+            }{
+            expert
+            }
+            \itemLevel{
+            Android
+            }{
+            expert
+            }
+            \itemLevel{
+            Ubuntu
+            }{
+            advanced
+            }
+            \end{itemize}
+        \needspace{1\baselineskip}
     
     \subSectionHeader{
     Soft Skills%
@@ -222,8 +237,31 @@
         \item dedicated troubleshooter
         \item focused on solutions
         \item devoted to efficiency
+        \item practitioner of semantic and well documented code
         \item can lead as well as be led
         \end{itemize}
+        \needspace{1\baselineskip}
+    
+    \subSectionHeader{
+    Fan Of%
+    }
+      \begin{itemize}
+        \item learning new things
+        \item teaching new things
+        \item troubleshooting problems
+        \item working towards solutions
+        \item efficiency
+        \item semantic and well documented code
+        \end{itemize}
+        \needspace{1\baselineskip}
+    
+    \subSectionHeader{
+    Arts%
+    }
+      \begin{itemize}
+        \item cinema
+        \end{itemize}
+        \needspace{1\baselineskip}
     
     
   \end{multicols}
@@ -231,21 +269,10 @@
 \sectionHeader{PERSONAL \& PUBLIC PROJECTS}
 
   \begin{description}
-    \item[HomelessGaffer.com] Simple CMS written in Python using Flask---deployed using git-hooks
-    \item[battleship] Multiplayer game written in Python---currently being rewritten as a web app
+    \item[HomelessGaffer.com] Simple CMS written in Python using Flask
+    \item[Battleship] Multiplayer game written in Python---currently being rewritten as a web app
     
   \end{description}
-
-\sectionHeader{EDUCATION}
-
-    \JobHeader{Columbia College Chicago
-    }{
-    Chicago, IL
-    }{
-    B.A. Film/Video---Cinematography Concentration
-    }{
-    2003--2008
-    }
 
 \sectionHeader{EXPERIENCE}
 
@@ -297,4 +324,15 @@
     \begin{itemize}
     \item Managed Lighting Department, personnel, equipment, records, and budget with safety and efficiency as a priority, appropriated, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power needs, acted as liaison between departments
     \end{itemize}
-  \end{document}
+  \sectionHeader{EDUCATION}
+
+    \JobHeader{Columbia College Chicago
+    }{
+    Chicago, IL
+    }{
+    B.A. Film/Video---Cinematography Concentration
+    }{
+    2003--2008
+    }
+
+\end{document}

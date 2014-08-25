@@ -3,6 +3,7 @@
 \title{Cameron Dershem Resume}              %top matter
 \documentclass[letterpaper]{article}        %document class
 \usepackage{ResumeStyle}
+\usepackage{needspace}
 \begin{document}                            % actual content starts here
 
 \objective{
@@ -30,6 +31,7 @@
         {% endif -%}
         {% endfor -%}
       \end{itemize}
+        \needspace{1\baselineskip}
     {% endfor %}
     {% endfor %}
   \end{multicols}
@@ -41,19 +43,6 @@
     \item[{{item}}] {{ data['PersonalPublicProjects'][item] }}
     {% endfor %}
   \end{description}
-
-\sectionHeader{EDUCATION}
-
-    {% set ed = data['Education'] -%}
-    \JobHeader{
-    {{- ed['name'] }}
-    }{
-    {{ ed['location'] }}
-    }{
-    {{ ed['degree'] }}
-    }{
-    {{ ed['time'] }}
-    }
 
 \sectionHeader{EXPERIENCE}
 
@@ -75,5 +64,18 @@
   {% endif -%}
   {% endfor -%}
   {% endfor -%}
+
+\sectionHeader{EDUCATION}
+
+    {% set ed = data['Education'] -%}
+    \JobHeader{
+    {{- ed['name'] }}
+    }{
+    {{ ed['location'] }}
+    }{
+    {{ ed['degree'] }}
+    }{
+    {{ ed['time'] }}
+    }
 
 \end{document}

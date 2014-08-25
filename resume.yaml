@@ -7,13 +7,6 @@ contact:
     - github: github.com/cldershem
 objective: To successfully transition careers into application development by obtaining an entry-level position to gain experience and knowledge.  Seeking new challenges and stability by leveraging an enthusiasm for efficiency and simplicity while finding and building solutions.
 skills:
-    - OSes:
-        - GNU/Linux: advanced
-        - Windows: intermediate
-        - OSX: advanced
-        - ChromeOS: expert
-        - Android: expert
-        - Ubuntu: advanced
     - Languages:
         - Python: intermediate
         - HTML: intermediate
@@ -24,6 +17,7 @@ skills:
         - C: novice
         - sh: intermediate
         - Java: beginner
+        - PHP: novice
     - Frameworks:
         - Flask: intermediate
         - Django: novice
@@ -42,21 +36,39 @@ skills:
         - MVC
         - TDD
         - Agile
+        - REST
     - CMSes:
         - Wordpress: intermediate
-        - Drupal: intermediate, but out-of-date
+        - Drupal: intermediate, up to v6
         - TikiWiki: intermediate
         - Plone: novice
         - MediaWiki: novice
     - Misc:
         - tcp/ip networking
+    - OSes:
+        - GNU/Linux: advanced
+        - Windows: intermediate
+        - OSX: advanced
+        - ChromeOS: expert
+        - Android: expert
+        - Ubuntu: advanced
     - Soft Skills:
         - expert learner
         - adept teacher
         - dedicated troubleshooter
         - focused on solutions
         - devoted to efficiency
+        - practitioner of semantic and well documented code
         - can lead as well as be led
+    - Fan Of:
+        - learning new things
+        - teaching new things
+        - troubleshooting problems
+        - working towards solutions
+        - efficiency
+        - semantic and well documented code
+    - Arts:
+        - cinema
 SkillsInterests:
     - Adept in Linux, Windows, OS X, Chrome OS, Android
     - Confident and comfortable with Python, Flask, HTML, CSS, LESS, JavaScript, \LaTeX{}, Bash
@@ -71,13 +83,8 @@ SkillsInterests:
     - Passionate about cinema, cinematography, still photography---specifically lighting
     - Avid cyclist, wishful randonneur, and dedicated velodrome attendee
 PersonalPublicProjects:
-    battleship: Multiplayer game written in Python---currently being rewritten as a web app
-    HomelessGaffer.com: Simple CMS written in Python using Flask---deployed using git-hooks
-Education:
-    name: Columbia College Chicago
-    location: Chicago, IL
-    degree: B.A. Film/Video---Cinematography Concentration
-    time: 2003--2008
+    Battleship: Multiplayer game written in Python---currently being rewritten as a web app
+    HomelessGaffer.com: Simple CMS written in Python using Flask
 Experience:
     - marketstar:
         name: MarketStar
@@ -138,3 +145,8 @@ Experience:
             - Answered questions from students and assisted teachers in better conveying class material
             - Occasionally taught classes in teacher's absence
             - Projected film in 35mm, 16mm, and digital formats
+Education:
+    name: Columbia College Chicago
+    location: Chicago, IL
+    degree: B.A. Film/Video---Cinematography Concentration
+    time: 2003--2008
