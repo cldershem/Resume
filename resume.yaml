@@ -12,12 +12,12 @@ skills:
         - HTML: intermediate
         - CSS: intermediate
         - LESS: intermediate
-        - JavaScript: novice
-        - \LaTeX{}: intermediate
-        - C: novice
         - sh: intermediate
+        - \LaTeX{}: intermediate
+        - JavaScript: novice
+        - C: novice
+        - PHP: beginner
         - Java: beginner
-        - PHP: novice
     - Frameworks:
         - Flask: intermediate
         - Django: novice
@@ -28,9 +28,9 @@ skills:
         - Vim: intermediate
         - Git: intermediate
         - AdobeCS: intermediate
+        - VirtualBox: intermediate
         - Vagrant: novice
         - Docker: novice
-        - VirtualBox: intermediate
     - Methodologies:
         - OOP
         - MVC
@@ -39,19 +39,19 @@ skills:
         - REST
     - CMSes:
         - Wordpress: intermediate
-        - Drupal: intermediate, up to v6
         - TikiWiki: intermediate
+        - Drupal: intermediate, up to v6
         - Plone: novice
         - MediaWiki: novice
     - Misc:
         - tcp/ip networking
     - OSes:
         - GNU/Linux: advanced
-        - Windows: intermediate
-        - OSX: advanced
-        - ChromeOS: expert
-        - Android: expert
         - Ubuntu: advanced
+        - ChromeOS: advanced
+        - Android: advanced
+        - OSX: advanced
+        - Windows: intermediate
     - Soft Skills:
         - expert learner
         - adept teacher
