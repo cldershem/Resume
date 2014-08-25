@@ -43,8 +43,6 @@ skills:
         - Drupal: intermediate, up to v6
         - Plone: novice
         - MediaWiki: novice
-    - Misc:
-        - tcp/ip networking
     - OSes:
         - GNU/Linux: advanced
         - Ubuntu: advanced
@@ -52,6 +50,8 @@ skills:
         - Android: advanced
         - OSX: advanced
         - Windows: intermediate
+    - Misc:
+        - tcp/ip networking
     - Soft Skills:
         - expert learner
         - adept teacher
@@ -60,15 +60,6 @@ skills:
         - devoted to efficiency
         - practitioner of semantic and well documented code
         - can lead as well as be led
-    - Fan Of:
-        - learning new things
-        - teaching new things
-        - troubleshooting problems
-        - working towards solutions
-        - efficiency
-        - semantic and well documented code
-    - Arts:
-        - cinema
 SkillsInterests:
     - Adept in Linux, Windows, OS X, Chrome OS, Android
     - Confident and comfortable with Python, Flask, HTML, CSS, LESS, JavaScript, \LaTeX{}, Bash
