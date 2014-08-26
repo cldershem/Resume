@@ -50,8 +50,8 @@ skills:
         - Android: advanced
         - OSX: advanced
         - Windows: intermediate
-    - Misc:
-        - tcp/ip networking
+    # - Misc:
+        # - TCP/IP networking
     - Soft Skills:
         - expert learner
         - adept teacher
