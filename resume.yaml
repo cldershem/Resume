@@ -18,9 +18,13 @@ skills:
         - C: novice
         - PHP: beginner
         - Java: beginner
+        - Swift: intermediate
+        - C\#: intermediate
     - Frameworks:
         - Flask: intermediate
         - Django: novice
+        - Meteor: novice
+        - .NET: intermediate
     - Datebase:
         - MySQL: novice
         - MongoDB: novice
@@ -31,6 +35,7 @@ skills:
         - VirtualBox: intermediate
         - Vagrant: novice
         - Docker: novice
+        - GitLab: intermediate
     - Methodologies:
         - OOP
         - MVC
@@ -50,16 +55,14 @@ skills:
         - Android: advanced
         - OSX: advanced
         - Windows: intermediate
-    # - Misc:
-        # - TCP/IP networking
     - Soft Skills:
-        - expert learner
-        - adept teacher
-        - dedicated troubleshooter
-        - focused on solutions
-        - devoted to efficiency
-        - practitioner of semantic and well documented code
-        - can lead as well as be led
+        - Expert learner
+        - Adept teacher
+        - Dedicated troubleshooter
+        - Focused on solutions
+        - Devoted to efficiency
+        - Practitioner of semantic and well documented code
+        - Can lead as well as be led
 SkillsInterests:
     - Adept in Linux, Windows, OS X, Chrome OS, Android
     - Confident and comfortable with Python, Flask, HTML, CSS, LESS, JavaScript, \LaTeX{}, Bash
@@ -77,6 +80,16 @@ PersonalPublicProjects:
     Battleship: Multiplayer game written in Python---currently being rewritten as a web app
     HomelessGaffer.com: Simple CMS written in Python using Flask
 Experience:
+    - elevenfifty:
+        name: Eleven Fifty
+        location: Indianapolis, IN
+        title: Apprentice II / Developer
+        time: October 2014--February 2015
+        short_description: Implemented and maintained communication and developer tools.  Acted as Lead Developer and Project Manager while building applications in iOS and .NET.
+        long_description:
+            - Built infastructure for team and client communications including a GitLab Server and Project Management software
+            - Developed multiple iOS and .NET applications
+            - Communicated with clients
     - marketstar:
         name: MarketStar
         location: Indianapolis, IN
@@ -118,7 +131,7 @@ Experience:
         location: Chicago, IL \& Los Angeles, CA
         title: Freelance Gaffer \& Best Boy Electric
         time: June 2002--June 2010
-        short_description: Managed Lighting Department, personnel, equipment, records, and budget with safety and efficiency as a priority, appropriated, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power needs, acted as liaison between departments
+        short_description: Managed Lighting Department, personnel, equipment, records, and budget with safety and efficiency as a priority, appropriated, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power needs, acted as liaison between departments.
         long_description:
             - Controlled the look of a film through lighting techniques with direction from the Cinematographer
             - Managed a department and crew ranging from 2--20---including personnel decisions, records, and budget

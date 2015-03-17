@@ -6,9 +6,11 @@
 \usepackage{needspace}
 \begin{document}                            % actual content starts here
 
+{#
 \objective{
     {{ data['objective'] }}
   }
+#}
 \sectionHeader{SKILLS}
   \begin{multicols}{3}
     {% for skill in data['skills'] -%}
@@ -25,8 +27,10 @@
             \itemLevel{
             {{ key }}
             }{
+            \textit{
             {{ value }}
-            }
+            }%
+            }%
             {% endfor -%}
         {% endif -%}
         {% endfor -%}

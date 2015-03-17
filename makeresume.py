@@ -33,7 +33,7 @@ templates = [
     # ('Gen', 'tex'),
     # # ('Html', 'html'),
     # ('Text', 'text'),
-    # ('Dev', 'tex'),
+    ('Dev', 'tex'),
     ]
 
 prefix = 'CameronDershemResume-'
