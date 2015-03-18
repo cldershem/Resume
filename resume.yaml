@@ -10,8 +10,7 @@ skills:
     - Languages:
         - Python: intermediate
         - HTML: intermediate
-        - CSS: intermediate
-        - LESS: intermediate
+        - CSS/LESS: intermediate
         - sh: intermediate
         - \LaTeX{}: intermediate
         - JavaScript: novice
@@ -25,7 +24,7 @@ skills:
         - Django: novice
         - Meteor: novice
         - .NET: intermediate
-    - Datebase:
+    - Datebases:
         - MySQL: novice
         - MongoDB: novice
     - Tools:
