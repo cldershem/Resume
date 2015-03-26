@@ -5,7 +5,7 @@ contact:
     - address: Indianapolis, IN
     - website: homelessgaffer.com
     - github: github.com/cldershem
-# objective: To successfully transition careers into application development by obtaining an entry-level position to gain experience and knowledge.  Seeking new challenges and stability by leveraging an enthusiasm for efficiency and simplicity while finding and building solutions.
+objective: To successfully transition careers into application development by obtaining an entry-level position to gain experience and knowledge.  Seeking new challenges and stability by leveraging an enthusiasm for efficiency and simplicity while finding and building solutions.
 skills:
     - Languages:
         - Python: intermediate
@@ -87,8 +87,7 @@ Experience:
         short_description: Implemented and maintained communication and developer tools.  Acted as Lead Developer and Project Manager while building applications in iOS and .NET.
         long_description:
             - Built infastructure for team and client communications including a GitLab Server and Project Management software
-            - Developed multiple iOS and .NET applications
-            - Communicated with clients
+            - Lead Developer for multiple iOS and .NET applications
     - marketstar:
         name: MarketStar
         location: Indianapolis, IN

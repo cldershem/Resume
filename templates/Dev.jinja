@@ -5,9 +5,11 @@
 \usepackage{ResumeStyle}
 \begin{document}                            % actual content starts here
 
+{#
 \objective{
   {{ data['objective'] }}
   }
+  #}
 \sectionHeader{EXPERIENCE}
 
   {% for item in data['Experience'] -%}
