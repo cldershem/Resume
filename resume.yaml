@@ -78,6 +78,7 @@ SkillsInterests:
 PersonalPublicProjects:
     Battleship: Multiplayer game written in Python---currently being rewritten as a web app
     HomelessGaffer.com: Simple CMS written in Python using Flask
+    makeresume.py: Script to build several resumes from one YAML using Jinja2 templates and \LaTeX{}
 Experience:
     - elevenfifty:
         name: Eleven Fifty
@@ -86,8 +87,9 @@ Experience:
         time: October 2014--February 2015
         short_description: Implemented and maintained communication and developer tools.  Acted as Lead Developer and Project Manager while building applications in iOS and .NET.
         long_description:
-            - Built infastructure for team and client communications including a GitLab Server and Project Management software
+            - Built infastructure for team and client communications including a GitLab server and Project Management software
             - Lead Developer for multiple iOS and .NET applications
+            - Lead training for new hires getting them quicly up to speed on the technology stacks
     - marketstar:
         name: MarketStar
         location: Indianapolis, IN
@@ -98,7 +100,7 @@ Experience:
             - Educated guests on Google's ecosystem and products, focusing on the Google Chromebook
             - Answered questions involving Google and how it could better the guests' current needs
             - Developed training methods for the continued education of colleagues
-            - Assisted guests with questions and issues---finding the answer even if it was not a Google product
+            # - Assisted guests with questions and issues---finding the answer even if it was not a Google product
             - Used, tested, troubleshot products, and reported bugs to the proper teams
     - orange20:
         name: Orange 20 Bikes
@@ -123,7 +125,7 @@ Experience:
             - Maintained equipment regularly---troubleshooting, servicing, and reporting bugs as needed
             - Provided on call support by phone and on location---making sure the client could make their day
             - Coordinated rentals from initial contact to delivery, invoicing, subrentals, returns, and follow ups
-            - Handled equipment sales under \$35,000
+            # - Handled equipment sales under \$35,000
     - film:
         name: Various Motion Picture Productions
         location: Chicago, IL \& Los Angeles, CA
