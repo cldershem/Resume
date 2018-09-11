@@ -30,7 +30,7 @@ templates = [
     ('Skills', 'tex'),
     # ('CoverLetter', 'tex'),
     # ('Gen', 'tex'),
-    # # ('Html', 'html'),
+    # ('Html', 'html'),
     # ('Text', 'text'),
     ('Dev', 'tex'),
     ]
@@ -140,7 +140,7 @@ if __name__ == '__main__':
         if file_type == 'tex':
             build_tex(template, name)
             make_pdf(template, name)
-            open_pdf(name)
+            # open_pdf(name)
         elif file_type == 'text':
             make_text(template, name)
         elif file_type == 'html':

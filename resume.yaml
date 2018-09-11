@@ -1,6 +1,6 @@
 contact:
     - name: Cameron Dershem
-    - email: cldershem@gmail.com
+    - email: cameron@pinkhatbeard.com
     - phone: 312.361.0322
     - address: Indianapolis, IN
     - website: pinkhatbeard.com
@@ -8,49 +8,56 @@ contact:
 objective: To successfully transition careers into application development by obtaining an entry-level position to gain experience and knowledge.  Seeking new challenges and stability by leveraging an enthusiasm for efficiency and simplicity while finding and building solutions.
 skills:
     - Languages:
-        - Python: intermediate
-        - HTML: intermediate
-        - CSS/LESS: intermediate
-        - sh: intermediate
+        - Python: expert
+        - Rust: intermediate
+        - JavaScript: intermediate
+        - HTML: advanced
+        - CSS: intermediate
+        # - sh: intermediate
         - \LaTeX{}: intermediate
-        - JavaScript: novice
-        - C: novice
-        - PHP: beginner
-        - Java: beginner
-        - Swift: intermediate
-        - C\#: intermediate
-    - Frameworks:
-        - Flask: intermediate
+        # - C: novice
+        # - PHP: beginner
+        # - Java: beginner
+        # - Ruby: novice
+        # - Swift: intermediate
+        # - C\#: intermediate
+    - Technologies:
+        - Flask: advanced
         - Django: novice
-        - Meteor: novice
-        - .NET: intermediate
-    - Datebases:
-        - MySQL: novice
-        - MongoDB: novice
+        # - Meteor: novice
+        # - .NET: intermediate
+        - Qt: intermediate
+        - React: novice
+        - VueJS: intermediate
+        - AWS: intermediate
+        - SQL: novice
+        - Computer Vision: intermediate
+        - Embedded Devices: novice
     - Tools:
-        - Vim: intermediate
-        - Git: intermediate
-        - AdobeCS: intermediate
+        - vim: intermediate
+        - git: intermediate
+        # - AdobeCS: intermediate
         - VirtualBox: intermediate
         - Vagrant: novice
         - Docker: novice
-        - GitLab: intermediate
+        # - GitLab: intermediate
     - Methodologies:
         - OOP
         - MVC
         - TDD
         - Agile
         - REST
-    - CMSes:
-        - Wordpress: intermediate
-        - TikiWiki: intermediate
-        - Drupal: intermediate, up to v6
-        - Plone: novice
-        - MediaWiki: novice
+        - CI/CD
+    # - CMSes:
+    #     - Wordpress: intermediate
+    #     - TikiWiki: intermediate
+    #     - Drupal: intermediate, up to v6
+    #     - Plone: novice
+    #     - MediaWiki: novice
     - OSes:
         - GNU/Linux: advanced
         - Ubuntu: advanced
-        - ChromeOS: advanced
+        # - ChromeOS: advanced
         - Android: advanced
         - OSX: advanced
         - Windows: intermediate
@@ -58,7 +65,7 @@ skills:
         - Expert learner
         - Adept teacher
         - Dedicated troubleshooter
-        - Focused on solutions
+        - Solutions focused
         - Devoted to efficiency
         - Practitioner of semantic and well documented code
         - Can lead as well as be led
@@ -76,10 +83,48 @@ SkillsInterests:
     - Passionate about cinema, cinematography, still photography---specifically lighting
     - Avid cyclist, wishful randonneur, and dedicated velodrome attendee
 PersonalPublicProjects:
-    Battleship: Multiplayer game written in Python---currently being rewritten as a web app
-    HomelessGaffer.com: Simple CMS written in Python using Flask
-    makeresume.py: Script to build several resumes from one YAML using Jinja2 templates and \LaTeX{}
+    - PotholeSurfers:
+        name: Pothole Surfers - Indy IoT Hack - Winner
+        description: Early pothole detection to allow for preventative maintenance.
+    - PedestrianCounter:
+        name: Pedestrian Counter
+        description: Automatic pedestrian/cyclist counter built with modularity and low cost in mind for public greenways.
+    - indyrs:
+        name: Indy.rs
+        description: Co-organizer and frequent speaker of the local Rust users group.
+    - speaker:
+        name: Conference Speaker
+        description: Speaker at various meetups and conferences (IndyPy, PyOhio, PyCon, PyTN, Rust Belt Rust, etc).
+    - studyhall:
+        name: Indy Open Tech Study Hall
+        description: Co-organizer -- providing mentorship along with connecting projects and people.
+    - lsa:
+        name: Indiana LSA - Indy Civic Hack - Finalist
+        description: Digitized vote counts for the state legislator enabling a near realtime API.
+    - tisc:
+        name: The Indy Startup Challenge - Honorable Mention
+        description: 10 week challenge to build a successful startup in the IoT space.
 Experience:
+    - ocelli:
+        name: ocelli
+        location: Indianapolis, IN
+        title: Co-Founder / Software Developer
+        time: August 2016--Present
+        short_description: Planned and implemented IoT applications for small, embedded devices, the long-range/low-power networking to connect them to the greater world, and the applications to make their data meaningful.
+        long_description:
+            - something IoT
+            - something IoT
+            - something IoT
+    - pinkhatbeard:
+        name: pinkhatbeard
+        location: Indianapolis, IN
+        title: Freelance Developer
+        time: April 2015--Present
+        short_description: Developed and contributed to various open and closed source projects as a contractor or freelance developer -- from web applications to quality control for a manufacturer.
+        long_description:
+            - Troubleshot, planned, and executed a rewrite of a Quality Control application for a manufacturer using OpenCV, QT, and Python
+            - something something ruby
+            - something
     - elevenfifty:
         name: Eleven Fifty
         location: Indianapolis, IN
@@ -87,27 +132,27 @@ Experience:
         time: October 2014--February 2015
         short_description: Implemented and maintained communication and developer tools.  Acted as Lead Developer and Project Manager while building applications in iOS and .NET.
         long_description:
-            - Built infastructure for team and client communications including a GitLab server and Project Management software
+            - Built infrastructure for team and client communications including a GitLab server and Project Management software
             - Lead Developer for multiple iOS and .NET applications
-            - Lead training for new hires getting them quicly up to speed on the technology stacks
-    - marketstar:
-        name: MarketStar
-        location: Indianapolis, IN
-        title: Google Specialist
-        time: November 2012--December 2012
-        short_description: Educated guests and colleagues on the Google Chromebook, answered questions on the Google ecosystem, developed training methods, used, tested, troubleshot, and reported bugs.
-        long_description:
-            - Educated guests on Google's ecosystem and products, focusing on the Google Chromebook
-            - Answered questions involving Google and how it could better the guests' current needs
-            - Developed training methods for the continued education of colleagues
-            # - Assisted guests with questions and issues---finding the answer even if it was not a Google product
-            - Used, tested, troubleshot products, and reported bugs to the proper teams
+            - Lead training for new hires getting them quickly up to speed on the technology stacks
+    # - marketstar:
+    #     name: MarketStar
+    #     location: Indianapolis, IN
+    #     title: Google Specialist
+    #     time: November 2012--December 2012
+    #     short_description: Educated guests and colleagues on the Google Chromebook, answered questions on the Google ecosystem, developed training methods, used, tested, troubleshot, and reported bugs.
+    #     long_description:
+    #         - Educated guests on Google's ecosystem and products, focusing on the Google Chromebook
+    #         - Answered questions involving Google and how it could better the guests' current needs
+    #         - Developed training methods for the continued education of colleagues
+    #         # - Assisted guests with questions and issues---finding the answer even if it was not a Google product
+    #         - Used, tested, troubleshot products, and reported bugs to the proper teams
     - orange20:
         name: Orange 20 Bikes
         location: Los Angeles, CA
         title: IT Management \& Inventory Control
         time: October 2011--June 2012
-        short_description: Designed and implemented inventory control system along with improved productivity, efficiency, communication, etc. by an order of magnitude.
+        short_description: Designed and implemented inventory control system -- improving productivity, efficiency, communication.
         long_description:
             - Designed and implemented improvements to POS and inventory control systems
             - Created systems to improve employee communications---greatly increasing efficiency and morale

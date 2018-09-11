@@ -23,7 +23,7 @@
         {% if item is string -%}
             \item {{ item }}
         {% else -%}
-            {% for key, value in item.iteritems() -%}
+            {% for key, value in item.items() -%}
             \itemLevel{
             {{ key }}
             }{
@@ -44,7 +44,9 @@
 
   \begin{description}
     {% for item in data['PersonalPublicProjects'] -%}
-    \item[{{item}}] {{ data['PersonalPublicProjects'][item] }}
+        {% for key in item.keys() %}
+            \item[{{ item[key]['name'] }}] {{ item[key]['description'] }}
+        {% endfor %}
     {% endfor %}
   \end{description}
 
