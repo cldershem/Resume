@@ -26,6 +26,7 @@ skills:
         - Django: novice
         # - Meteor: novice
         # - .NET: intermediate
+        - Flutter: intermediate
         - Qt: intermediate
         - React: novice
         - VueJS: intermediate
@@ -92,6 +93,9 @@ PersonalPublicProjects:
     - indyrs:
         name: Indy.rs
         description: Co-organizer and frequent speaker of the local Rust users group.
+    - actix:
+        name: Actix-Web Documentation
+        description: Led effort to test and rewrite actix-web documentation for the v1.0 release
     - speaker:
         name: Conference Speaker
         description: Speaker at various meetups and conferences (IndyPy, PyOhio, PyCon, PyTN, Rust Belt Rust, etc).
@@ -105,16 +109,6 @@ PersonalPublicProjects:
         name: The Indy Startup Challenge - Honorable Mention
         description: 10 week challenge to build a successful startup in the IoT space.
 Experience:
-    - ocelli:
-        name: ocelli
-        location: Indianapolis, IN
-        title: Co-Founder / Software Developer
-        time: August 2016--Present
-        short_description: Planned and implemented IoT applications for small, embedded devices, the long-range/low-power networking to connect them to the greater world, and the applications to make their data meaningful.
-        long_description:
-            - something IoT
-            - something IoT
-            - something IoT
     - pinkhatbeard:
         name: pinkhatbeard
         location: Indianapolis, IN
@@ -125,6 +119,16 @@ Experience:
             - Troubleshot, planned, and executed a rewrite of a Quality Control application for a manufacturer using OpenCV, QT, and Python
             - something something ruby
             - something
+    - ocelli:
+        name: ocelli
+        location: Indianapolis, IN
+        title: Co-Founder / Software Developer
+        time: August 2016--2019
+        short_description: Planned and implemented IoT applications for small, embedded devices, the long-range/low-power networking to connect them to the greater world, and the applications to make their data meaningful.
+        long_description:
+            - something IoT
+            - something IoT
+            - something IoT
     - elevenfifty:
         name: Eleven Fifty
         location: Indianapolis, IN

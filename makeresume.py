@@ -129,7 +129,7 @@ def get_data():
     Prints out the data.
     """
     with open('resume.yaml', 'r') as ydata:
-        ydata = yaml.load(ydata.read())
+        ydata = yaml.load(ydata.read(), Loader=yaml.BaseLoader)
     return ydata
 
 
