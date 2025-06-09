@@ -1,0 +1,4 @@
+/coverletters/*
+!/coverletters/tester.toml
+/fonts/*
+!/fonts/.gitkeep

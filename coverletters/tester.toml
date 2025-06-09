@@ -1,0 +1,17 @@
+company = ""
+title = ""
+attn = ""
+letter = """
+Upon reviewing my attached resume, you will see that I have years of leadership experience along with extensive knowledge in many different industries. Often, as a consultant, my role is less about the tech and more about defining the right product that customers and stakeholders actually need. Practicing continuous discovery habits has allowed me to help guide many product teams towards that holy grail of building a product customers actually want while balancing business, technical priorities, and constraints. Using data driven methodologies to test hypotheses allows us to collaborate confidently as we iterate while strategizing for long-term vision, mission, and business goals.
+
+I have a passion for finding solutions and love discovering and exploring new problem spaces, whatever they may be. This has led me to spend the last several years as a consultant where I have worked on many greenfield projects either as a team or on my own. I have worked on projects such as automating quality control at a manufacturer, enforcing and recording better health and safety practices in food service, and even helped modernize the medico-legal death investigation processes for a state Office of the Chief Medical Examiner (who knew NCIS wasn’t reality). Working with startups, stakeholders, and new products is where I really shine - taking it from ideation through discovery to an MVP and beyond. My fairly unique background helps me understand problems and communicate ideas and decisions to tech and non-technical people alike. I genuinely thrive when working with limited resources, especially with the right team.
+
+While I’m reluctant to call myself an expert in anything, I have more years of Rust behind me than most. Not only have I been writing Rust since just before 1.0 (2014), I am also the co-founder of one of the longest, continuously running Rust meetups, Indy.rs (2017). Prior to Rust, I spent the majority of my time working in Python and JavaScript. I have architected and implemented many stacks along with introducing CI/CD, containers, DevOps, CDNs, cloud (AWS, Azure, GCP, etc) to many companies and teams. I mention all of this to say, I am confident that I have all of the technical experience to understand the required capabilities, constraints, impact, and engineering complexity.
+
+Aside from everything you’ll see on my resume, I’ve recently stepped down as the President of a local non-profit grocery store, SoBrodega, and our neighborhood's farmers market. After two years of navigating the complexities of the food supply chain, they were ready to go off on their own. I'm not done with non-profits, just taking a break while I plan my next big community project.
+
+Please ﬁnd my attached resume, which details my qualifications for the position. Feel free to reach out if you have any questions.
+
+I look forward to working with you,
+"""
+

@@ -1,0 +1,230 @@
+[bio]
+name = "Cameron Dershem"
+email = "cameron@pinkhatbeard.com"
+phone = "312.361.0322"
+location = "Indianapolis, IN"
+website = "pinkhatbeard.com"
+github = "github.com/cldershem"
+gitlab = "gitlab.com/cldershem"
+summary = """
+Solutions focused, dedicated to continuous discovery habits with an aptitude to empathize alongside end users. Powered by a predilection for well defined goals and boundaries while devoted to clear communication, transparency, openness, and accountability. Capable of rapidly gaining domain expertise into any project space enabling open collaboration with stakeholders by bridging the gap between technical and non-technical partners and colleagues. Keeping user experience, security, and business objectives at the forefront, always advocating for the customer & team.
+"""
+
+[skills]
+Languages = [
+  "Rust",
+  "Python",
+  "JavaScript",
+  "Html / CSS",
+  "LaTex / Typst",
+]
+Technologies = [
+  "Flask / Django",
+  "axum / actix",
+  "tokio / iroh",
+  "WebAssembly / wasm",
+  "Qt / Leptos",
+  "AWS / GPC/ Fly.io / Cloud",
+  "SQL / NoSQL",
+  "serverless",
+  "computer vision",
+  "embedded devices",
+]
+Tools = [
+  "neovim",
+  "git",
+  "Docker",
+]
+Keywords = [
+  "OOP",
+  "MVC",
+  "TDD",
+  "Agile / SCRUM",
+  "REST / RESTful",
+  "CI/CD / DevOps",
+  "SDLC",
+  "Full Stack",
+  "Systems Level",
+  "Continuous Discovery",
+  "Grant writing"
+]
+OSes = [
+  "GNU/Linux",
+  "Ubuntu",
+  "Android",
+  "Windows",
+  "MacOS",
+]
+"Soft Skills" = [
+  "Expert learner",
+  "Adept teacher",
+  "Dedicated troubleshooter",
+  "Solutions focused",
+  "Continuous discovery",
+  "Practitioner of semantic and well documented code",
+  "Can lead as well as be led",
+]
+
+[education]
+school = "Columbia College Chicago"
+major = "B.A. Film/Video"
+concentration = "Cinematography Concentration"
+start_date = "2003"
+end_date = "2008"
+location = "Chicago, IL"
+
+[[experience]]
+name = "pinkhatbeard, llc"
+title = "Technology & Product Engineer & Consultant"
+location = "Indianapolis, IN"
+start_date = "April 2015"
+end_date = "Present"
+
+[experience.phb.mongotel]
+name = "Voip Company"
+description = [
+  "Introduced continuous integration and continuous deployment (CI/CD) along with modern software development lifecycle practices (automated testing, code review, pair programming, continuous discovery) eliminating downtime and late night deploys while enabling the team to go from quarterly deploys to multiple times daily.",
+  "Ported legacy infrastructure from dedicated hardware to containers and into the cloud saving $30,000 in monthly costs.",
+  "Performed the first inventory of technology in over a decade allowing drastic consolidation improving uptime by an order of magnitude and simplifying troubleshooting.",
+  "Implemented a complete end-to-end testing suite including applications to mock nearly any device or service making it exceedingly unlikely to break production."
+]
+stack = ["Python", "PHP", "NixOS", "Rust", "FreeSWITCH", "Tailscale", "Nomad", "GitLab", "GitLab CI", "Docker", "Postgres", "AWS", "Traefik", "MySQL", "Grafana", "Prometheus"]
+
+[experience.phb.meggit]
+name = "Fortune 500 Manufacturer"
+description = [
+  "Automated quality control processes enabling a 100x increase in throughput drastically improving iteration cycles and allowing the predictable meeting of deadlines.",
+  "Discovered safety and security flaws left by a previous contractor allowing the company to seek legal remedies"
+]
+stack = ["Python", "PyQT", "OpenCV", "barcode printer", "microscope", "computer vision"]
+
+[experience.phb.cheifmed]
+name = "Office of the Chief Medical Examiner for a State"
+description = [
+  "Led discovery and ideation phases of a startup to explore modernizing the medico-legal death investigation processes.",
+  "Attended the conference for American Association of Forensic Scientists meeting potential customers allowing for instant feedback during discovery.",
+  "Met weekly with stakeholders and customers to advise the business model as the correct product came to fruition."
+]
+
+[experience.phb.moes]
+name = "Restaurant Chain"
+description = [
+  "Led the ideation phase and prototyped automations to significantly reduce errors and waste to improve safety on food assembly lines.",
+  "Built working prototypes to demo to stakeholders proving the concept.",
+]
+stack = ["Rust", "ESP8266", "Raspberry Pi", "MQTT", "nRF9160"]
+
+[experience.phb.medai]
+name = "Medical AI Company"
+description = [
+  "Ascertained the feasibility of using AI for various applications for a startup in the health and health insurance space.",
+]
+stack = ["Rust", "AI", "OCR", "ChatGTP", "Claude", "LLM", ]
+
+[experience.phb.securityai]
+name = "Cyber-Security Company"
+description = [
+  "Created novel Rust applications purposefully with vulnerabilities to act as targets for research to discover if AI could 'hack' applications whose code it could not have used to train.",
+]
+stack = ["Rust", "axum", "tokio", "rocket", "clap", "serde", "sqlx", "AI"]
+
+[[experience]]
+name = "ocelli, llc"
+title = "Co-Founder / Software Engineer"
+location = "Indianapolis, IN"
+start_date = "August 2016"
+end_date = "2019"
+description = [
+  "Designed and implemented multiple Internet of Things applications using small embedded devices to gather telemetry around a medium sized city",
+  "Deployed long-range/low-power networking to connect long-range/low-power devices",
+  "Built applications to ingest data and gain meaningful insights",
+]
+stack = ["Python", "Rust", "ESP8266", "Raspberry Pi", "C", "C++", "Linux", "MQTT", "LoRa", "LoRaWAN", "IoT"]
+
+[[experience]]
+name = "Eleven Fifty Academy"
+title = "Apprentice II / Software Developer"
+location = "Indianapolis, IN"
+start_date = "October 2014"
+end_date = "February 2015"
+description = [
+  "As first hire of a startup, implemented collaboration and developer tooling", "Introduced the founders to 'cloud' and AWS allowing an exorbitant speed up in deployments", 
+  "As Lead Developer of a small team often acted as Project Manager during weekly meetings with stakeholders & customers while building applications for small businesses.",
+]
+stack = ["Swift", "Objective-C", "Java", "Python", "C#", ".NET"]
+
+[[experience]]
+name = "Various Motion Picture Productions"
+title = "Freelance Gaffer & Best Boy Electric"
+location = "Chicago, IL & Los Angeles, CA"
+start_date = "June 2002"
+end_date = "June 2010"
+description = [
+  "Managed Lighting Dept - including personnel, equipment, and budget with safety and efficiency as a priority, sourced, inventoried, serviced, maintained, troubleshot equipment, planned and distributed power, acted as liaison between departments."
+]
+
+[[projects]]
+name = "Pothole Surfers - Indiana IoT Hackathon"
+outcome = "Winner"
+description = [
+  "Tech lead for an early pothole detection system to enable preventative maintenance for roads and highways."
+]
+
+[[projects]]
+name = "Pedestrian Counter"
+description = [
+  "Automatic pedestrian/cyclist counter built with modularity and low cost in mind for public greenways."
+]
+
+[[projects]]
+name = "Indy.rs"
+outcome = "Co-organizer"
+description = [
+  "Co-organizer and frequent speaker of one of the oldest, continuously running Rust users groups in the US."
+]
+
+[[projects]]
+name = "Actix-Web Documentation"
+description = [
+  "Led effort to test and rewrite actix-web documentation for the v1.0 release.",
+  "Built tooling to help keep guide level documentation in sync with the current codebase.",
+]
+
+[[projects]]
+name = "Conference Speaker"
+description = [
+  "Speaker at various meetups and conferences (IndyPy, PyOhio, PyCon, PyTN, Rust Belt Rust, Indy.Code(), Detroit.Code(), etc)."
+]
+
+[[projects]]
+name = "Indy Open Tech Study Hall"
+outcome = "Co-organizer"
+description = [
+  "Co-organizer of a monthly meetup with open office hours, mentorship, and rubber ducking where the community is encouraged to collaborate on various hardware and software projects.",
+]
+
+[[projects]]
+name = "Indiana LSA - Indy Civic Hackathon"
+outcome = "Finalist"
+description = [
+  "Created a near realtime API to show vote counts for the Indiana state legislature."
+]
+
+[[projects]]
+name = "The Indy Startup Challenge"
+outcome = "Honorable Mention"
+description = [
+  "10 week challenge to build a successful startup in the IoT space."
+]
+
+[[projects]]
+name = "SoBrodega"
+description = [
+  "Co-founder & President of an effort to start a non-profit neighborhood grocery store."
+]
+
+[[projects]]
+name = "SoBro Farmers Market"
+description = [
+  "Executive Director of our neighborhood farmers market."
+]
